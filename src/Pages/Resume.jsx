@@ -84,7 +84,7 @@ export default function Resume() {
 
         <div class="title-wrapper">
           <div class="icon-box">
-           <HiOutlineAcademicCap />
+            <HiOutlineAcademicCap />
           </div>
 
           <h3 class="h3">Education</h3>
@@ -94,41 +94,27 @@ export default function Resume() {
 
           <li class="timeline-item">
 
-            <h4 class="h4 timeline-item-title">University school of the arts</h4>
+            <h4 class="h4 timeline-item-title"> Islamic Azad University </h4>
 
-            <span>2007 — 2008</span>
+            <span>2014 — 2015</span>
 
             <p class="timeline-text">
-              Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-              quas molestias
-              exceptur.
+              I studied B.S. Psychology for 2 semesters but then I have found out that have no interest in this major. So, I decided to leave the university and explore the life to find my passion.
+              That was the best desicion in my life, because the sense of happiness that I feel in my professional life comes from this.
             </p>
 
           </li>
 
           <li class="timeline-item">
 
-            <h4 class="h4 timeline-item-title">New york academy of art</h4>
+            <h4 class="h4 timeline-item-title">Mohadese high school</h4>
 
-            <span>2006 — 2007</span>
-
-            <p class="timeline-text">
-              Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-              omnis..
-            </p>
-
-          </li>
-
-          <li class="timeline-item">
-
-            <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-            <span>2002 — 2004</span>
+            <span>2010 — 2014</span>
 
             <p class="timeline-text">
-              Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-              magni dolores
-              eos.
+              I have spent 4 successful years in high school and graduated with great grades.
+              In fact, the school that I have attebded is not a regular school. This means that students
+              must pass an enterance exam in order to get permission to study at this high school.
             </p>
 
           </li>
@@ -163,7 +149,7 @@ export default function Resume() {
 
             <div class="title-wrapper">
               <h5 class="h5">Typescript / Next.js</h5>
-              <data value="45">45%</data>
+              <data value="45">45% {''}(learning ...) </data>
             </div>
 
             <div class="skill-progress-bg">
@@ -220,6 +206,31 @@ export default function Resume() {
 
             <div class="skill-progress-bg">
               <div class="skill-progress-fill" style={{ width: "90%" }}></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Wordpress</h5>
+              <data value="70">70%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style={{ width: "70%" }}></div>
+            </div>
+
+          </li>
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Jest (learning ...)</h5>
+              <data value="20">20% {""} (learning ...)</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style={{ width: "20%" }}></div>
             </div>
 
           </li>

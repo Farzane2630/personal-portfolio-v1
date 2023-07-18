@@ -18,7 +18,7 @@ export default function Sidebar() {
             </figure>
 
             <div class="info-content">
-               <h1 class="name" title="Richard hanrick">Farzaneh Kazemi</h1>
+               <h1 class="name" title="Richard hanrick">Farzane Kazemi</h1>
 
                <p class="title">Frontend Developer</p>
             </div>
