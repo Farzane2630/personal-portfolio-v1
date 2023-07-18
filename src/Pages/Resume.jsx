@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import { MdWorkOutline } from "react-icons/md"
 import { HiOutlineAcademicCap } from "react-icons/hi"
+import { TbLanguage } from "react-icons/tb"
+import { LiaToolsSolid } from "react-icons/lia"
 
 export default function Resume() {
   return (
@@ -123,12 +125,20 @@ export default function Resume() {
 
       </section>
 
+      <br></br>
+
       <section class="skill">
 
 
-        <h3 class="h3 skills-title">
-          My skills
-        </h3>
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <LiaToolsSolid />
+          </div>
+
+          <h3 class="h3">
+            Technical skills
+          </h3>
+        </div>
 
         <ul class="skills-list content-card">
 

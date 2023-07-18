@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
+import { TbLanguage } from "react-icons/tb"
 
 export default function Index() {
   return (
@@ -11,26 +12,81 @@ export default function Index() {
 
       <section class="about-text">
         <p>
-          I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
+          I'm Passionate teach geek, working in web development and being responsible for frontend.
           I enjoy
-          turning complex problems into simple, beautiful and intuitive designs.
+          turning complex problems into simple, beautiful and intuitive features to make the world simpler and more enjoyable.
         </p>
 
         <p>
-          My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-          Moreover, I
-          add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-          across your
-          message and identity in the most creative way. I created web design for many famous brand companies.
+          My job is to build your website so that it is functional, responsive and user-friendly,
+          in other words, become your imaginations into real-world and show to your clients in form of websites and web applications.
+        </p>
+        <p>
+          Moreover, I have a good eye for details and guarantee that the result of my work is just like the UI design provided me.
         </p>
       </section>
 
+      <section class="skill">
 
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <TbLanguage />
+          </div>
+
+          <h3 class="h3">
+            Languages I speak
+          </h3>
+        </div>
+
+        <ul class="skills-list content-card">
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">English</h5>
+              <data value="80">80% (C1)</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style={{ width: "80%" }}></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">German</h5>
+              <data value="50">50% (B2)</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style={{ width: "50%" }}></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Persian</h5>
+              <data value="99">99% {""}(Mother tongue)</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style={{ width: "99%" }}></div>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </section>
       {/* <!--
       - service
         --> */}
 
-      <section class="service">
+      {/* <section class="service">
 
         <h3 class="h3 service-title">What i'm doing</h3>
 
@@ -103,14 +159,14 @@ export default function Index() {
 
         </ul>
 
-      </section>
+      </section> */}
 
 
       {/* <!--
       - testimonials
         --> */}
 
-      <section class="testimonials">
+      {/* <section class="testimonials">
 
         <h3 class="h3 testimonials-title">Testimonials</h3>
 
@@ -206,14 +262,14 @@ export default function Index() {
 
         </ul>
 
-      </section>
+      </section> */}
 
 
       {/* <!--
       - testimonials modal
         --> */}
 
-      <div class="modal-container" data-modal-container>
+      {/* <div class="modal-container" data-modal-container>
 
         <div class="overlay" data-overlay></div>
 
@@ -251,14 +307,14 @@ export default function Index() {
 
         </section>
 
-      </div>
+      </div> */}
 
 
       {/* <!--
       - clients
         --> */}
 
-      <section class="clients">
+      {/* <section class="clients">
 
         <h3 class="h3 clients-title">Clients</h3>
 
@@ -302,7 +358,7 @@ export default function Index() {
 
         </ul>
 
-      </section>
+      </section> */}
 
     </article>
   )
