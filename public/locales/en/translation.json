@@ -1,0 +1,88 @@
+{
+  "pages": {
+    "navbar": {
+      "about": "About",
+      "resume": "Resume",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "header": {
+      "about": "About Me",
+      "resume": "Resume",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "about_me": {
+      "desc": {
+        "p1": "I'm a passionate tech geek, working in web development and responsible for the frontend. I enjoy transforming complex problems into simple, beautiful, and intuitive features to make the world simpler and more enjoyable.",
+        "p2": "My job is to build your website to be functional, responsive, and user-friendly. In other words, I turn your imaginations into the real world and present them to your clients in the form of websites and web applications.",
+        "p3": "Moreover, I have a keen eye for details and guarantee that the result of my work matches the provided UI design."
+      },
+      "langs": {
+        "title": "Languages",
+        "lang1": "English",
+        "lang2": "German",
+        "lang3": "Persian",
+        "profi": "Native Speaker"
+      }
+    },
+    "resume": {
+      "ex": {
+        "title": "Experience",
+        "sub_title": "Main Responsibilities:",
+        "job_1": {
+          "position": "Frontend Developer",
+          "date": "July 2020 – Present",
+          "details": "Raintech International Holding / Full-time / On-site",
+          "desc": "This company is involved in Insurance Technologies (Insurtech) and offers Content Management Systems (CMS) to insurance firms and agencies. In this position, I collaborate with my team to create efficient and user-friendly admin panels, providing an incredible experience to our customers and helping them manage their tasks and clients as effectively as possible. Additionally, we develop services that allow clients to independently and directly purchase insurance for their belongings, such as cars, cellphones, laptops, and other electronic devices, using our applications.",
+          "res": {
+            "1": "- Developing, maintaining, and improving the current frontend.",
+            "2": "- Collaborating with other team members, such as backend developers, designers, and product managers, to ensure a smooth production flow.",
+            "3": "- Developing new Content Management Systems (CMS)."
+          }
+        },
+        "job_2": {
+          "position": "Frontend Developer",
+          "date": "September 2019 - Present",
+          "details": "Freelancing / Remote",
+          "desc": "As a freelance developer, I have had the opportunity to gain hands-on experience in various projects, including educational websites, online shops, and e-commerce projects. In this role, I have learned a lot and expanded my knowledge not only in technical fields but also in communication skills. I have gained a deep understanding of marketing and financial aspects. Moreover, I have become proficient in time management.",
+          "res": {
+            "1": "- Completing various tasks for different clients, providing them with an improved frontend experience.",
+            "2": "- Collaborating with development teams and being responsible for parts of projects, as well as refactoring source codes and debugging."
+          }
+        }
+      },
+      "educ": {
+        "title": "Education",
+        "edu_1": {
+          "location": "Islamic Azad University",
+          "date": "2014 – 2015",
+          "desc": "I studied B.S. Psychology for 2 semesters, but then I realized that I had no interest in this major. So, I decided to leave the university and explore life to find my passion. That was the best decision of my life because the sense of happiness I feel in my professional life comes from this."
+        },
+        "edu_2": {
+          "location": "Mohadese High School",
+          "date": "2010 – 2014",
+          "desc": "I spent 4 successful years in high school and graduated with excellent grades. In fact, the school I attended is not a regular school. Students must pass an entrance exam to be granted permission to study at this high school."
+        }
+      },
+      "tech_skills": {
+        "title": "Technical Skills"
+      }
+    },
+    "contact": {
+      "title": "Contact Form",
+      "input_1": "Full name",
+      "input_2": "Email address",
+      "txt_area": "Your Message",
+      "btn": "Send Message"
+    }
+  },
+  "sidebar": {
+    "job_title": "Frontend Developer",
+    "email": "Email",
+    "phone": "phone",
+    "location": "location",
+    "birth": "Birthday",
+    "show_contact": "Show Contact"
+  }
+}

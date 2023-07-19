@@ -3,10 +3,12 @@ import { TbMail } from "react-icons/tb"
 import { BsPhoneFlip, BsCalendarWeek } from "react-icons/bs"
 import { RiUserLocationFill } from "react-icons/ri"
 import { SiLinkedin, SiGithub, SiSkype } from "react-icons/si"
+import { useTranslation } from 'react-i18next'
 
 export default function Sidebar() {
 
    const [isShowContact, setIsShowContact] = useState(false)
+   const { t, i18n } = useTranslation()
 
    return (
       <aside class={`sidebar ${isShowContact ? "active" : null}`} data-sidebar>
@@ -20,11 +22,15 @@ export default function Sidebar() {
             <div class="info-content">
                <h1 class="name" title="Richard hanrick">Farzane Kazemi</h1>
 
-               <p class="title">Frontend Developer</p>
+               <p class="title">
+                  {t('sidebar.job_title')}
+               </p>
             </div>
 
             <button class="info_more-btn data-sidebar-btn" onClick={() => setIsShowContact(!isShowContact)}>
-               <span>Show Contacts</span>
+               <span>
+               {t('sidebar.show_contact')}
+               </span>
 
                <ion-icon name="chevron-down"></ion-icon>
             </button>
@@ -44,7 +50,9 @@ export default function Sidebar() {
                   </div>
 
                   <div class="contact-info">
-                     <p class="contact-title">Email</p>
+                     <p class="contact-title">
+                        {t('sidebar.email')}
+                     </p>
 
                      <a href="mailto:richard@example.com" class="contact-link">farzanekazemi8517@gmail.com</a>
                   </div>
@@ -58,7 +66,9 @@ export default function Sidebar() {
                   </div>
 
                   <div class="contact-info">
-                     <p class="contact-title">Phone</p>
+                     <p class="contact-title">
+                        {t('sidebar.phone')}
+                     </p>
 
                      <a href="tel:+989120738517" class="contact-link">+98 912 073 8517</a>
                   </div>
@@ -72,7 +82,9 @@ export default function Sidebar() {
                   </div>
 
                   <div class="contact-info">
-                     <p class="contact-title">Birthday</p>
+                     <p class="contact-title">
+                        {t('sidebar.birth')}
+                     </p>
 
                      <time datetime="1982-06-23">April 07, 1996</time>
                   </div>
@@ -86,7 +98,9 @@ export default function Sidebar() {
                   </div>
 
                   <div class="contact-info">
-                     <p class="contact-title">Location</p>
+                     <p class="contact-title">
+                        {t('sidebar.location')}
+                     </p>
 
                      <address>Tehran, Iran</address>
                   </div>

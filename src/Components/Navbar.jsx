@@ -1,53 +1,80 @@
-import React from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import {MdOutlineLanguage} from "react-icons/md"
+import { MdOutlineLanguage } from "react-icons/md"
+import { useTranslation } from 'react-i18next'
+import EnglishContext from '../context'
 
 export default function Navbar() {
+  const locales = [
+    { title: 'English', short: 'en' },
+    { title: 'Deutsch', short: 'de' },
+  ]
+
+  const context = useContext(EnglishContext)
+
+  const { t, i18n } = useTranslation()
+
+  useEffect(() => {
+    i18n.changeLanguage(
+      context.isEn ? locales[0].short : locales[1].short
+    )
+  }, [context.isEn])
+
   return (
-   <nav class="navbar">
+    <nav class="navbar">
 
-   <ul class="navbar-list">
+      <ul class="navbar-list">
 
-     <li class="navbar-item">
-       <button class="navbar-link" data-nav-link>
-         <Link className="link" to='/'>
-           About
-         </Link>
-       </button>
-     </li>
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>
+            <Link className="link" to='/'>
+              {t('pages.navbar.about')}
+            </Link>
+          </button>
+        </li>
 
-     <li class="navbar-item">
-       <button class="navbar-link" data-nav-link>
-         <Link className="link" to="/resume">
-           Resume
-         </Link>
-       </button>
-     </li>
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>
+            <Link className="link" to="/resume">
+              {t('pages.navbar.resume')}
 
-     <li class="navbar-item">
-       <button class="navbar-link" data-nav-link>
-         <Link className="link" to="/portfolio">
-           Portfolio
-         </Link>
-       </button>
-     </li>
+            </Link>
+          </button>
+        </li>
 
-     <li class="navbar-item">
-       <button class="navbar-link" data-nav-link>
-         <Link className="link" to="/contact">
-           Contact
-         </Link>
-       </button>
-     </li>
-     <li class="navbar-item">
-       <button class="navbar-link" data-nav-link style={{display: "flex", alignItems: "center", columnGap: 4}}>
-         <MdOutlineLanguage fontSize="17px" />
-         German
-       </button>
-     </li>
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>
+            <Link className="link" to="/portfolio">
+              {t('pages.navbar.portfolio')}
+            </Link>
+          </button>
+        </li>
 
-   </ul>
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>
+            <Link className="link" to="/contact">
+              {t('pages.navbar.contact')}
+            </Link>
+          </button>
+        </li>
 
- </nav>
+
+        <li class="navbar-item">
+          <button class="navbar-link"
+            data-nav-link style={{ display: "flex", alignItems: "center", columnGap: 4 }}
+            onClick={(e) => {
+              context.setIsEn(!context.isEn)
+            }}
+          >
+            <MdOutlineLanguage fontSize="17px" />
+            {
+              context.isEn ? locales[0].title : locales[1].title
+            }
+          </button>
+        </li>
+
+      </ul>
+
+    </nav>
   )
 }

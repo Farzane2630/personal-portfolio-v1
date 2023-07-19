@@ -1,28 +1,32 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import { TbLanguage } from "react-icons/tb"
+import { Suspense } from "react"
+import { useTranslation } from "react-i18next"
 
-export default function Index() {
+function Index() {
+
+  const { t, i18n } = useTranslation();
+
   return (
     <article class="about  active" data-page="about">
       <Navbar />
       <header>
-        <h2 class="h2 article-title">About me</h2>
+        <h2 class="h2 article-title">
+          {t("pages.header.about")}
+        </h2>
       </header>
 
       <section class="about-text">
         <p>
-          I'm Passionate teach geek, working in web development and being responsible for frontend.
-          I enjoy
-          turning complex problems into simple, beautiful and intuitive features to make the world simpler and more enjoyable.
+          {t("pages.about_me.desc.p1")}
         </p>
 
         <p>
-          My job is to build your website so that it is functional, responsive and user-friendly,
-          in other words, become your imaginations into real-world and show to your clients in form of websites and web applications.
+          {t('pages.about_me.desc.p2')}
         </p>
         <p>
-          Moreover, I have a good eye for details and guarantee that the result of my work is just like the UI design provided me.
+          {t('pages.about_me.desc.p3')}
         </p>
       </section>
 
@@ -34,7 +38,7 @@ export default function Index() {
           </div>
 
           <h3 class="h3">
-            Languages I speak
+            {t('pages.about_me.langs.title')}
           </h3>
         </div>
 
@@ -43,7 +47,9 @@ export default function Index() {
           <li class="skills-item">
 
             <div class="title-wrapper">
-              <h5 class="h5">English</h5>
+              <h5 class="h5">
+                {t('pages.about_me.langs.lang1')}
+              </h5>
               <data value="80">80% (C1)</data>
             </div>
 
@@ -56,7 +62,9 @@ export default function Index() {
           <li class="skills-item">
 
             <div class="title-wrapper">
-              <h5 class="h5">German</h5>
+              <h5 class="h5">
+                {t('pages.about_me.langs.lang2')}
+              </h5>
               <data value="50">50% (B2)</data>
             </div>
 
@@ -69,8 +77,10 @@ export default function Index() {
           <li class="skills-item">
 
             <div class="title-wrapper">
-              <h5 class="h5">Persian</h5>
-              <data value="99">99% {""}(Mother tongue)</data>
+              <h5 class="h5">
+                {t('pages.about_me.langs.lang3')}
+              </h5>
+              <data value="99">99% {""}({t('pages.about_me.langs.profi')})</data>
             </div>
 
             <div class="skill-progress-bg">
@@ -361,5 +371,13 @@ export default function Index() {
       </section> */}
 
     </article>
+  )
+}
+
+export default function WrappedApp() {
+  return (
+    <Suspense fallback="...loading">
+      <Index />
+    </Suspense>
   )
 }

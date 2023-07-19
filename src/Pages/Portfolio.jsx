@@ -1,13 +1,17 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
+import { useTranslation } from 'react-i18next'
 
 export default function Portfolio() {
+  const { t, i18n } = useTranslation()
   return (
     <article class="portfolio active" data-page="portfolio">
       <Navbar />
 
       <header>
-        <h2 class="h2 article-title">Portfolio</h2>
+        <h2 class="h2 article-title">
+          {t('pages.header.portfolio')}
+        </h2>
       </header>
 
       <section class="projects">

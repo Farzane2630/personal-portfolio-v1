@@ -2,17 +2,20 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import { MdWorkOutline } from "react-icons/md"
 import { HiOutlineAcademicCap } from "react-icons/hi"
-import { TbLanguage } from "react-icons/tb"
 import { LiaToolsSolid } from "react-icons/lia"
+import { useTranslation } from 'react-i18next'
 
 export default function Resume() {
+  const { t, i18n } = useTranslation()
   return (
     <article class="resume active" data-page="resume">
 
       <Navbar />
 
       <header>
-        <h2 class="h2 article-title">Resume</h2>
+        <h2 class="h2 article-title">
+          {t('pages.header.resume')}
+        </h2>
       </header>
 
 
@@ -23,60 +26,74 @@ export default function Resume() {
             <MdWorkOutline />
           </div>
 
-          <h3 class="h3">Experience</h3>
+          <h3 class="h3">
+            {t('pages.resume.ex.title')}
+          </h3>
         </div>
 
         <ol class="timeline-list">
 
           <li class="timeline-item">
 
-            <h4 class="h4 timeline-item-title">Frontend Developer</h4>
+            <h4 class="h4 timeline-item-title">
+              {t('pages.resume.ex.job_1.position')}
+            </h4>
 
-            <span>July 2020 — Present</span>
-            <span>Raintech International Holding / Full-time / In-site</span>
+            <span>
+              {t('pages.resume.ex.job_1.date')}
+            </span>
+            <span>
+              {t('pages.resume.ex.job_1.details')}
+            </span>
 
             <p class="timeline-text">
-              This Company is related to Insurance Technologies (Insurtech) which offer CMS to Insurance firms and agancies.
-              In this position, I cooperate with my team to create efficient and user-friendly admin panels to give an incredible
-              experience to our customer and help them manage their tasks and clients as perfect as possible.
-              Beside that, we develope services for clients to buy insurance for their belongings, like cars, cellphones, laptops,
-              and other electronic devices, independently and directly using our applications.
+              {t('pages.resume.ex.job_1.desc')}
             </p>
-
-            <h4 class="h4 timeline-item-title">Main responsibilities: </h4>
+            <br />
+            <h4 class="h4 timeline-item-title">
+              {t('pages.resume.ex.sub_title')}
+            </h4>
 
             <p class="timeline-text">
-              - Develop, maintain, and improve current frontend.
+              {t('pages.resume.ex.job_1.res.1')}
             </p>
             <p class="timeline-text">
-              - Cooperate with other team members such as backend developer, designer and product manager to smooth the fllow of production.
+              {t('pages.resume.ex.job_1.res.2')}
             </p>
             <p class="timeline-text">
-              - Develop new Content Management Systems (CMS).
+              {t('pages.resume.ex.job_1.res.3')}
             </p>
           </li>
 
           <li class="timeline-item">
 
-            <h4 class="h4 timeline-item-title">Frontend Developer</h4>
+            <h4 class="h4 timeline-item-title">
+              {t('pages.resume.ex.job_2.position')}
+            </h4>
 
-            <span>September 2019 - present  </span>
-            <span>Freelancing / Remote </span>
+            <span>
+              {t('pages.resume.ex.job_2.date')}
+            </span>
+            <span>
+              {t('pages.resume.ex.job_2.details')}
+            </span>
 
             <p class="timeline-text">
-              As a freelance developer, I have a great chance to make some hands-on experience in different projects such as educational website, onlineshops and e-commerce projects.
-              In this role, I have learnt a lot and expand my knowledge not only in technical fields but in communicational skills, and gained a deep underestanding about marketing and financialization.
-              More than that, I have become a professional time-management.
+              {t('pages.resume.ex.job_2.desc')}
             </p>
-            <h4 class="h4 timeline-item-title">Main responsibilities: </h4>
+            <br />
+            <h4 class="h4 timeline-item-title">
+              {t('pages.resume.ex.sub_title')}
+            </h4>
 
             <p class="timeline-text">
-              - Get different tasks done for different clients and make them to have a better experience of their frontend.
+              {t('pages.resume.ex.job_2.res.1')}
             </p>
             <p class="timeline-text">
-              - Cooperate some development teams and be reponsibble for parts of the projects as well as refactore source codes and debug.
+              {t('pages.resume.ex.job_2.res.2')}
             </p>
           </li>
+
 
         </ol>
 
@@ -89,34 +106,41 @@ export default function Resume() {
             <HiOutlineAcademicCap />
           </div>
 
-          <h3 class="h3">Education</h3>
+          <h3 class="h3">
+            {t('pages.resume.educ.title')}
+          </h3>
         </div>
 
         <ol class="timeline-list">
 
           <li class="timeline-item">
 
-            <h4 class="h4 timeline-item-title"> Islamic Azad University </h4>
+            <h4 class="h4 timeline-item-title">
+              {t('pages.resume.educ.edu_1.location')}
+            </h4>
 
-            <span>2014 — 2015</span>
+            <span>
+              {t('pages.resume.educ.edu_1.date')}
+            </span>
 
             <p class="timeline-text">
-              I studied B.S. Psychology for 2 semesters but then I have found out that have no interest in this major. So, I decided to leave the university and explore the life to find my passion.
-              That was the best desicion in my life, because the sense of happiness that I feel in my professional life comes from this.
+              {t('pages.resume.educ.edu_1.desc')}
             </p>
 
           </li>
 
           <li class="timeline-item">
 
-            <h4 class="h4 timeline-item-title">Mohadese high school</h4>
+            <h4 class="h4 timeline-item-title">
+              {t('pages.resume.educ.edu_2.location')}
+            </h4>
 
-            <span>2010 — 2014</span>
+            <span>
+              {t('pages.resume.educ.edu_2.date')}
+            </span>
 
             <p class="timeline-text">
-              I have spent 4 successful years in high school and graduated with great grades.
-              In fact, the school that I have attebded is not a regular school. This means that students
-              must pass an enterance exam in order to get permission to study at this high school.
+              {t('pages.resume.educ.edu_2.desc')}
             </p>
 
           </li>
@@ -136,7 +160,7 @@ export default function Resume() {
           </div>
 
           <h3 class="h3">
-            Technical skills
+            {t('pages.resume.tech_skills.title')}
           </h3>
         </div>
 

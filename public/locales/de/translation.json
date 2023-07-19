@@ -1,0 +1,88 @@
+{
+  "pages": {
+    "navbar": {
+      "about": "Über",
+      "resume": "Lebenslauf",
+      "portfolio": "Portfolio",
+      "contact": "Kontakt"
+    },
+    "header": {
+      "about": "Über Mich",
+      "resume": "Lebenslauf",
+      "portfolio": "Portfolio",
+      "contact": "Kontakt"
+    },
+    "about_me": {
+      "desc": {
+        "p1": "Ich bin ein leidenschaftlicher Tech-Enthusiast, der in der Webentwicklung arbeitet und für das Frontend verantwortlich ist. Ich liebe es, komplexe Probleme in einfache, schöne und intuitive Funktionen umzuwandeln, um die Welt einfacher und angenehmer zu gestalten.",
+        "p2": "Meine Aufgabe besteht darin, Ihre Website funktionsfähig, reaktionsschnell und benutzerfreundlich zu gestalten. Mit anderen Worten, ich setze Ihre Vorstellungen in die reale Welt um und präsentiere sie Ihren Kunden in Form von Websites und Webanwendungen.",
+        "p3": "Darüber hinaus habe ich ein gutes Auge für Details und garantiere, dass das Ergebnis meiner Arbeit genauso ist wie das von mir bereitgestellte UI-Design."
+      },
+      "langs": {
+        "title": "Sprachen",
+        "lang1": "Englisch",
+        "lang2": "Deutsch",
+        "lang3": "Persisch",
+        "profi": "Muttersprache"
+      }
+    },
+    "resume": {
+      "ex": {
+        "title": "Berufserfahrung",
+        "sub_title": "Hauptverantwortlichkeiten:",
+        "job_1": {
+          "position": "Frontend-Entwickler",
+          "date": "Juli 2020 – heute",
+          "details": "Raintech International Holding / Vollzeit / Vor Ort",
+          "desc": "Dieses Unternehmen ist auf Versicherungstechnologien (Insurtech) spezialisiert und bietet Content-Management-Systeme (CMS) für Versicherungsunternehmen und Agenturen an. In dieser Position arbeite ich mit meinem Team zusammen, um effiziente und benutzerfreundliche Admin-Panels zu erstellen, um unseren Kunden ein unglaubliches Erlebnis zu bieten und ihnen dabei zu helfen, ihre Aufgaben und Kunden so effektiv wie möglich zu verwalten. Zusätzlich entwickeln wir Services, die es Kunden ermöglichen, Versicherungen für ihre Besitztümer wie Autos, Handys, Laptops und andere elektronische Geräte unabhängig und direkt über unsere Anwendungen abzuschließen.",
+          "res": {
+            "1": "- Entwicklung, Pflege und Verbesserung des aktuellen Frontends.",
+            "2": "- Zusammenarbeit mit anderen Teammitgliedern, wie Backend-Entwicklern, Designern und Produktmanagern, um einen reibungslosen Produktionsablauf sicherzustellen.",
+            "3": "- Entwicklung neuer Content-Management-Systeme (CMS)."
+          }
+        },
+        "job_2": {
+          "position": "Frontend-Entwickler",
+          "date": "September 2019 - heute",
+          "details": "Freiberuflich / Remote",
+          "desc": "Als freiberuflicher Entwickler hatte ich die Möglichkeit, praktische Erfahrungen in verschiedenen Projekten zu sammeln, darunter Bildungswebsites, Online-Shops und E-Commerce-Projekte. In dieser Rolle habe ich viel gelernt und mein Wissen nicht nur in technischen Bereichen, sondern auch in Kommunikationsfähigkeiten erweitert. Ich habe ein tiefes Verständnis für Marketing und Finanzaspekte gewonnen. Darüber hinaus habe ich meine Zeitmanagement-Fähigkeiten professionalisiert.",
+          "res": {
+            "1": "- Abschluss verschiedener Aufgaben für unterschiedliche Kunden, um ihnen eine verbesserte Frontend-Erfahrung zu bieten.",
+            "2": "- Zusammenarbeit mit Entwicklungsteams und Verantwortung für Teile von Projekten sowie Refactoring von Quellcodes und Debugging."
+          }
+        }
+      },
+      "educ": {
+        "title": "Bildung",
+        "edu_1": {
+          "location": "Islamic Azad University",
+          "date": "2014 – 2015",
+          "desc": "Ich habe 2 Semester lang Psychologie studiert, aber dann erkannt, dass mich dieses Fachgebiet nicht interessiert. Deshalb habe ich mich entschlossen, die Universität zu verlassen und das Leben zu erkunden, um meine Leidenschaft zu finden. Das war die beste Entscheidung meines Lebens, denn das Glücksgefühl, das ich in meinem beruflichen Leben empfinde, kommt daher."
+        },
+        "edu_2": {
+          "location": "Mohadese High School",
+          "date": "2010 – 2014",
+          "desc": "Ich habe 4 erfolgreiche Jahre auf der High School verbracht und mit hervorragenden Noten abgeschlossen. Tatsächlich handelt es sich bei der Schule, die ich besucht habe, um keine reguläre Schule. Die Schüler müssen eine Aufnahmeprüfung bestehen, um die Erlaubnis zum Studium an dieser High School zu erhalten."
+        }
+      },
+      "tech_skills": {
+        "title": "Technische Fähigkeiten"
+      }
+    },
+    "contact": {
+      "title": "Kontaktformular",
+      "input_1": "Vollständiger Name",
+      "input_2": "E-Mail-Adresse",
+      "txt_area": "Ihre Nachricht",
+      "btn": "Nachricht senden"
+    }
+  },
+  "sidebar": {
+    "job_title": "Frontend-Entwickler",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "location": "Ort",
+    "birth": "Geburtstag",
+    "show_contact": "Kontakt anzeigen"
+  }
+}
