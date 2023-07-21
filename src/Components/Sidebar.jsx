@@ -16,7 +16,7 @@ export default function Sidebar() {
          <div class="sidebar-info">
 
             <figure class="avatar-box">
-               <img src="src/assets/avatar.jpg" alt="Richard hanrick" width="80" />
+               <img src="./src/assets/avatar.jpg" alt="Richard hanrick" width="80" />
             </figure>
 
             <div class="info-content">
