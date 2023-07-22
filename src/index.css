@@ -384,7 +384,7 @@ main {
 .info_more-btn:hover::before,
 .info_more-btn:focus::before { background: var(--bg-gradient-yellow-2); }
 
-/* .info_more-btn span { display: none; } */
+.info_more-btn span { font-size: 10px; }
 
 .sidebar-info_more {
   opacity: 0;

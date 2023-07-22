@@ -16,11 +16,11 @@ export default function Sidebar() {
          <div class="sidebar-info">
 
             <figure class="avatar-box">
-               <img src="./src/assets/avatar.jpg" alt="Richard hanrick" width="80" />
+               <img src="src/assets/avatar-2.png" alt="Farzane Kazemi" width="80" />
             </figure>
 
             <div class="info-content">
-               <h1 class="name" title="Richard hanrick">Farzane Kazemi</h1>
+               <h1 class="name" title="Farzane Kazemi">Farzane Kazemi</h1>
 
                <p class="title">
                   {t('sidebar.job_title')}
