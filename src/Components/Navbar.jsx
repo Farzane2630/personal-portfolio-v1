@@ -50,13 +50,13 @@ export default function Navbar() {
           </button>
         </li>
 
-        <li class="navbar-item">
+        {/* <li class="navbar-item">
           <button class="navbar-link" data-nav-link>
             <Link className="link" to="/contact">
               {t('pages.navbar.contact')}
             </Link>
           </button>
-        </li>
+        </li> */}
 
 
         <li class="navbar-item">
@@ -68,7 +68,7 @@ export default function Navbar() {
           >
             <MdOutlineLanguage fontSize="17px" />
             {
-              context.isEn ? locales[0].title : locales[1].title
+              context.isEn ? locales[1].title : locales[0].title
             }
           </button>
         </li>

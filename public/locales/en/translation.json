@@ -75,6 +75,11 @@
       "input_2": "Email address",
       "txt_area": "Your Message",
       "btn": "Send Message"
+    },
+    "portfolio":{
+      "project1": {
+        "header": "for an Insurance company"
+      }
     }
   },
   "sidebar": {
