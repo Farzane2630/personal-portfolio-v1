@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { TbMail } from "react-icons/tb"
 import { BsPhoneFlip, BsCalendarWeek } from "react-icons/bs"
 import { RiUserLocationFill } from "react-icons/ri"
-import { SiLinkedin, SiGithub, SiXing, SiStackoverflow, SiMedium } from "react-icons/si"
+import { SiLinkedin, SiGithub, SiXing, SiStackoverflow, SiMedium, SiWhatsapp } from "react-icons/si"
 import { useTranslation } from 'react-i18next'
 
 export default function Sidebar() {
@@ -58,7 +58,7 @@ export default function Sidebar() {
                         {t('sidebar.email')}
                      </p>
 
-                     <a href="mailto:richard@example.com" class="contact-link">farzanekazemi8517@gmail.com</a>
+                     <a href="mailto:farzanekazemi8517@gmail.com" class="contact-link">farzanekazemi8517@gmail.com</a>
                   </div>
 
                </li>
@@ -74,7 +74,7 @@ export default function Sidebar() {
                         {t('sidebar.phone')}
                      </p>
 
-                     <a href="tel:+989120738517" class="contact-link">+49 157 5599 1926</a>
+                     <a href="004915755991926" class="contact-link">+49 157 5599 1926</a>
                   </div>
 
                </li>
@@ -146,7 +146,12 @@ export default function Sidebar() {
                      <SiStackoverflow />
                   </a>
                </li>
-
+               
+               {/* <li class="social-item">
+                  <a href="" class="social-link">
+                     <SiWhatsapp />
+                  </a>
+               </li> */}
 
             </ul>
 
