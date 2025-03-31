@@ -15,13 +15,9 @@ export default function Sidebar() {
 
          <div class="sidebar-info">
 
-            <figure class="avatar-box">
-<<<<<<< HEAD
-               <img src="src/Components/images/photo_2025-03-31_11-55-06.jpg" alt="Farzaneh Kazemi" class="avatart-image" />
-=======
-               <img src="./images/photo_2025-03-31_11-55-06.jpg" alt="Farzane Kazemi" class="avatart-image" />
->>>>>>> 682a03e33cf3b71c3c5ec0d5112d60dbda2476e6
-            </figure>
+<figure class="avatar-box">
+   <img src="src/Components/images/photo_2025-03-31_11-55-06.jpg" alt="Farzaneh Kazemi" class="avatart-image" />
+</figure>
 
             <div class="info-content">
                <h1 class="name" title="Farzane Kazemi">Farzaneh Kazemi</h1>
