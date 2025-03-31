@@ -23,7 +23,7 @@ export default function Portfolio() {
                 Admin Dashboard {t('pages.portfolio.project1.header')}
               </h5>
             </div>
-            <img src="src/assets/Kronos.png" alt="Kronos CMS" className='project-img' />
+            <img src="src/Components/images/Kronos.png" alt="Kronos CMS" className='project-img' />
           </li>
         </ul>
       </section>
@@ -37,7 +37,7 @@ export default function Portfolio() {
               Admin Dashboard {t('pages.portfolio.project1.header')}
             </h5>
           </div>
-          <img src="src/assets/corporate_website_First_Frame.png" alt="Kronos CMS" className='project-img' />
+          <img src="src/Components/images/corporate_website_First_Frame.png" alt="Kronos CMS" className='project-img' />
         </li>
       </ul>
 
@@ -50,7 +50,7 @@ export default function Portfolio() {
               Admin Dashboard {t('pages.portfolio.project1.header')}
             </h5>
           </div>
-          <img src="src/assets/Apollo.png" alt="Kronos CMS" className='project-img' />
+          <img src="src/Components/images/Apollo.png" alt="Kronos CMS" className='project-img' />
         </li>
       </ul>
 
@@ -63,7 +63,7 @@ export default function Portfolio() {
               Admin Dashboard {t('pages.portfolio.project1.header')}
             </h5>
           </div>
-          <img src="src/assets/signup.png" alt="Kronos CMS" className='project-img' />
+          <img src="src/Components/images/signup.png" alt="Kronos CMS" className='project-img' />
         </li>
       </ul>
 
@@ -76,7 +76,7 @@ export default function Portfolio() {
               Admin Dashboard {t('pages.portfolio.project1.header')}
             </h5>
           </div>
-          <img src="src/assets/vegi.png" alt="Kronos CMS" className='project-img' />
+          <img src="src/Components/images/vegi.png" alt="Kronos CMS" className='project-img' />
         </li>
       </ul>
 
@@ -89,7 +89,7 @@ export default function Portfolio() {
               Admin Dashboard {t('pages.portfolio.project1.header')}
             </h5>
           </div>
-          <img src="src/assets/shortly.png" alt="Kronos CMS" className='project-img' />
+          <img src="src/Components/images/shortly.png" alt="Kronos CMS" className='project-img' />
         </li>
       </ul>
 
