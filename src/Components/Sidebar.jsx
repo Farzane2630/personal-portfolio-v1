@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { TbMail } from "react-icons/tb"
 import { BsPhoneFlip, BsCalendarWeek } from "react-icons/bs"
 import { RiUserLocationFill } from "react-icons/ri"
-import { SiLinkedin, SiGithub, SiSkype } from "react-icons/si"
+import { SiLinkedin, SiGithub, SiXing, SiStackoverflow, SiMedium } from "react-icons/si"
 import { useTranslation } from 'react-i18next'
 
 export default function Sidebar() {
@@ -16,11 +16,11 @@ export default function Sidebar() {
          <div class="sidebar-info">
 
             <figure class="avatar-box">
-               <img src="src/assets/avatar-2.png" alt="Farzane Kazemi" width="80" />
+               <img src="src/assets/photo_2025-03-31_11-55-06.jpg" alt="Farzane Kazemi" class="avatart-image" />
             </figure>
 
             <div class="info-content">
-               <h1 class="name" title="Farzane Kazemi">Farzane Kazemi</h1>
+               <h1 class="name" title="Farzane Kazemi">Farzaneh Kazemi</h1>
 
                <p class="title">
                   {t('sidebar.job_title')}
@@ -29,7 +29,11 @@ export default function Sidebar() {
 
             <button class="info_more-btn data-sidebar-btn" onClick={() => setIsShowContact(!isShowContact)}>
                <span>
-               {t('sidebar.show_contact')}
+                  {
+                     isShowContact
+                        ? t('sidebar.hide_contact')
+                        : t('sidebar.show_contact')
+                  }
                </span>
 
                <ion-icon name="chevron-down"></ion-icon>
@@ -70,7 +74,7 @@ export default function Sidebar() {
                         {t('sidebar.phone')}
                      </p>
 
-                     <a href="tel:+989120738517" class="contact-link">+98 912 073 8517</a>
+                     <a href="tel:+989120738517" class="contact-link">+49 157 5599 1926</a>
                   </div>
 
                </li>
@@ -102,7 +106,7 @@ export default function Sidebar() {
                         {t('sidebar.location')}
                      </p>
 
-                     <address>Tehran, Iran</address>
+                     <address>Germany</address>
                   </div>
 
                </li>
@@ -126,10 +130,23 @@ export default function Sidebar() {
                </li>
 
                <li class="social-item">
-                  <a href="https://join.skype.com/invite/OFbuK3yq9qva" class="social-link">
-                     <SiSkype />
+                  <a href="https://medium.com/@farzanekazemi8517" class="social-link">
+                     <SiMedium />
                   </a>
                </li>
+
+               <li class="social-item">
+                  <a href="https://www.xing.com/profile/Farzaneh_Kazemi3/web_profiles?expandNeffi=true" class="social-link">
+                     <SiXing />
+                  </a>
+               </li>
+
+               <li class="social-item">
+                  <a href="https://stackoverflow.com/users/19888516/farzane-kazemi" class="social-link">
+                     <SiStackoverflow />
+                  </a>
+               </li>
+
 
             </ul>
 

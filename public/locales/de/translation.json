@@ -89,6 +89,7 @@
     "phone": "Telefon",
     "location": "Ort",
     "birth": "Geburtstag",
-    "show_contact": "Kontakt anzeigen"
+    "show_contact": "Kontakt anzeigen",
+    "hide_contact": "Kontakt ausblenden"
   }
 }

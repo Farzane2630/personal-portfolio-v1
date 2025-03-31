@@ -88,6 +88,7 @@
     "phone": "phone",
     "location": "location",
     "birth": "Birthday",
-    "show_contact": "Show Contact"
+    "show_contact": "Show Contact",
+    "hide_contact": "Hide Contact"
   }
 }
