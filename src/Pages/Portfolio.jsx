@@ -23,7 +23,7 @@ export default function Portfolio() {
                 Admin Dashboard {t('pages.portfolio.project1.header')}
               </h5>
             </div>
-            <img src="src/assets/kronos.png" alt="Kronos CMS" className='project-img' />
+            <img src="src/assets/Kronos.png" alt="Kronos CMS" className='project-img' />
           </li>
         </ul>
       </section>
