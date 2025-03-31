@@ -16,7 +16,7 @@ export default function Sidebar() {
          <div class="sidebar-info">
 
 <figure class="avatar-box">
-   <img src="src/Components/images/photo_2025-03-31_11-55-06.jpg" alt="Farzaneh Kazemi" class="avatart-image" />
+   <img src="/images/photo_2025-03-31_11-55-06.jpg" alt="Farzaneh Kazemi" class="avatart-image" />
 </figure>
 
             <div class="info-content">
