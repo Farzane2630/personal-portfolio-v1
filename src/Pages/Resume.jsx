@@ -169,8 +169,8 @@ export default function Resume() {
           <li class="skills-item">
 
             <div class="title-wrapper">
-              <h5 class="h5">HTML  / CSS  / Javascript  / React</h5>
-              <data value="85">85%</data>
+              <h5 class="h5">HTML  / CSS  / Javascript  / React / Typescript</h5>
+              {/* <data value="85">85%</data> */}
             </div>
 
             <div class="skill-progress-bg">
@@ -182,12 +182,12 @@ export default function Resume() {
           <li class="skills-item">
 
             <div class="title-wrapper">
-              <h5 class="h5">Typescript / Next.js</h5>
-              <data value="45">45% {''}(learning ...) </data>
+              <h5 class="h5"> Next.js</h5>
+              {/* <data value="45">45% {''}(learning ...) </data> */}
             </div>
 
             <div class="skill-progress-bg">
-              <div class="skill-progress-fill" style={{ width: "45%" }}></div>
+              <div class="skill-progress-fill" style={{ width: "55%" }}></div>
             </div>
 
           </li>
@@ -195,8 +195,34 @@ export default function Resume() {
           <li class="skills-item">
 
             <div class="title-wrapper">
-              <h5 class="h5">node.js / MongoDB / MySQL / RestAPIs / Ajax</h5>
-              <data value="80">80%</data>
+              <h5 class="h5">node.js / MongoDB / MySQL / Restfull APIs / Ajax</h5>
+              {/* <data value="80">80%</data> */}
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style={{ width: "70%" }}></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Bootstrap / MaterialUI / Tailwindcss</h5>
+              {/* <data value="90">90%</data> */}
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style={{ width: "85%" }}></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Vite / Webpack / Babel</h5>
+              {/* <data value="85">85%</data> */}
             </div>
 
             <div class="skill-progress-bg">
@@ -208,21 +234,8 @@ export default function Resume() {
           <li class="skills-item">
 
             <div class="title-wrapper">
-              <h5 class="h5">React-bootstrap / MaterialUI / Tailwind / NextUI / Antdesign / Storybook</h5>
-              <data value="90">90%</data>
-            </div>
-
-            <div class="skill-progress-bg">
-              <div class="skill-progress-fill" style={{ width: "90%" }}></div>
-            </div>
-
-          </li>
-
-          <li class="skills-item">
-
-            <div class="title-wrapper">
-              <h5 class="h5">Vite / Webpack / Babel</h5>
-              <data value="85">85%</data>
+              <h5 class="h5">Git / Github / Gitlab / Gitlab CI/CD </h5>
+              {/* <data value="90">90%</data> */}
             </div>
 
             <div class="skill-progress-bg">
@@ -231,36 +244,24 @@ export default function Resume() {
 
           </li>
 
-          <li class="skills-item">
-
-            <div class="title-wrapper">
-              <h5 class="h5">Git / Github / Gitlab</h5>
-              <data value="90">90%</data>
-            </div>
-
-            <div class="skill-progress-bg">
-              <div class="skill-progress-fill" style={{ width: "90%" }}></div>
-            </div>
-
-          </li>
-
-          <li class="skills-item">
+          {/* <li class="skills-item">
 
             <div class="title-wrapper">
               <h5 class="h5">Wordpress</h5>
-              <data value="70">70%</data>
+               <data value="70">70%</data> 
             </div>
 
             <div class="skill-progress-bg">
               <div class="skill-progress-fill" style={{ width: "70%" }}></div>
             </div>
 
-          </li>
+          </li> */}
+
           <li class="skills-item">
 
             <div class="title-wrapper">
-              <h5 class="h5">Jest (learning ...)</h5>
-              <data value="20">20% {""} (learning ...)</data>
+              <h5 class="h5">Jest / RTL / TDD</h5>
+              {/* <data value="20">20% {""} (learning ...)</data> */}
             </div>
 
             <div class="skill-progress-bg">

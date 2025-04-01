@@ -55,12 +55,12 @@
       "educ": {
         "title": "Bildung",
         "edu_1": {
-          "location": "Islamic Azad University",
-          "date": "2014 – 2015",
-          "desc": "Ich habe 2 Semester lang Psychologie studiert, aber dann erkannt, dass mich dieses Fachgebiet nicht interessiert. Deshalb habe ich mich entschlossen, die Universität zu verlassen und das Leben zu erkunden, um meine Leidenschaft zu finden. Das war die beste Entscheidung meines Lebens, denn das Glücksgefühl, das ich in meinem beruflichen Leben empfinde, kommt daher."
+          "location": "ONLINE BOOTCAMP - WEB ENTWICKLUNG",
+          "date": "2020 – 2022",
+          "desc": "Dieses Online-Bootcamp war ein Teilzeitprogramm, das ich neben meiner Vollzeitstelle als SEO-Spezialist absolviert habe. Während dieses Kurses habe ich Webtechnologien und die Entwicklung von Webanwendungen erlernt. Ich habe Kenntnisse in HTML, CSS und JavaScript sowie in React und TypeScript erworben. Zudem habe ich gelernt, wie man Codebasen mit GitHub verwaltet und pflegt – eine der wichtigsten Aspekte der Entwicklung, insbesondere in einem Team. Durch diesen Kurs habe ich außerdem grundlegende Kenntnisse in der Backend-Entwicklung erworben, darunter Node.js, MongoDB, Mongoose, MySQL und Express.js. Ich habe beeindruckende Benutzeroberflächen erstellt und meinen Lernfortschritt durch kleine Projekte und praktische Erfahrungen erfolgreich gesteigert."
         },
         "edu_2": {
-          "location": "Mohadese High School",
+          "location": "HIGH SCHOOL",
           "date": "2010 – 2014",
           "desc": "Ich habe 4 erfolgreiche Jahre auf der High School verbracht und mit hervorragenden Noten abgeschlossen. Tatsächlich handelt es sich bei der Schule, die ich besucht habe, um keine reguläre Schule. Die Schüler müssen eine Aufnahmeprüfung bestehen, um die Erlaubnis zum Studium an dieser High School zu erhalten."
         }

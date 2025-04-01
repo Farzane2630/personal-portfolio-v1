@@ -55,12 +55,12 @@
       "educ": {
         "title": "Education",
         "edu_1": {
-          "location": "Islamic Azad University",
-          "date": "2014 – 2015",
-          "desc": "I studied B.S. Psychology for 2 semesters, but then I realized that I had no interest in this major. So, I decided to leave the university and explore life to find my passion. That was the best decision of my life because the sense of happiness I feel in my professional life comes from this."
+          "location": "ONLINE BOOTCAMP - WEB DEVELOPMENT",
+          "date": "2020 – 2022",
+          "desc": "This online bootcamp was a part-time program that I completed alongside my full-time job as an SEO specialist. During this course, I learned web technologies and how to develop web applications. I gained knowledge of HTML, CSS, and JavaScript, as well as React and TypeScript. Additionally, I learned how to manage and maintain codebases using GitHub, which is one of the most important aspects of development, especially in a team. Through this course, I also acquired fundamental backend development skills, including Node.js, MongoDB, Mongoose, MySQL, and Express.js. have created amazing user interfaces and successfully accelerated my learning through small projects and hands-on experience."
         },
         "edu_2": {
-          "location": "Mohadese High School",
+          "location": "HIGHSCHOOL",
           "date": "2010 – 2014",
           "desc": "I spent 4 successful years in high school and graduated with excellent grades. In fact, the school I attended is not a regular school. Students must pass an entrance exam to be granted permission to study at this high school."
         }
