@@ -1068,8 +1068,41 @@ main {
   width: 100%;
   height: 200px;
   border-radius: 16px;
+  margin-top: 8px;
   overflow: hidden;
   margin-bottom: 15px;
+}
+
+.project-details {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-radius: 16px;
+  margin-top: 8px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  background-color: black;
+}
+
+.project-item:hover .project-details {
+  display: flex;
+}
+
+.project-description {
+  color: white;
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  padding: 15px;
+}
+
+.project-tech-stack {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.6;
+  padding: 15px;
 }
 
 .project-img::before {
