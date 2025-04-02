@@ -15,9 +15,9 @@ export default function Sidebar() {
 
          <div class="sidebar-info">
 
-<figure class="avatar-box">
-   <img src="/images/photo_2025-03-31_11-55-06.jpg" alt="Farzaneh Kazemi" class="avatart-image" />
-</figure>
+            <figure class="avatar-box">
+               <img src="/images/photo_2025-03-31_11-55-06.jpg" alt="Farzaneh Kazemi" class="avatart-image" />
+            </figure>
 
             <div class="info-content">
                <h1 class="name" title="Farzane Kazemi">Farzaneh Kazemi</h1>
@@ -58,7 +58,7 @@ export default function Sidebar() {
                         {t('sidebar.email')}
                      </p>
 
-                     <a href="mailto:farzanekazemi8517@gmail.com" class="contact-link">farzanekazemi8517@gmail.com</a>
+                     <a target="_blank" rel="noopener noreferrer" href="mailto:farzanekazemi8517@gmail.com" class="contact-link">farzanekazemi8517@gmail.com</a>
                   </div>
 
                </li>
@@ -74,7 +74,7 @@ export default function Sidebar() {
                         {t('sidebar.phone')}
                      </p>
 
-                     <a href="004915755991926" class="contact-link">+49 157 5599 1926</a>
+                     <a target="_blank" rel="noopener noreferrer" href="004915755991926" class="contact-link">+49 157 5599 1926</a>
                   </div>
 
                </li>
@@ -113,45 +113,42 @@ export default function Sidebar() {
 
             </ul>
 
+
+            {/* social Links */}
+
             <div class="separator"></div>
 
             <ul class="social-list">
 
                <li class="social-item">
-                  <a href="https://linkedin.com/in/farzane-kazemi" class="social-link">
+                  <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/farzane-kazemi" class="social-link">
                      <SiLinkedin />
                   </a>
                </li>
 
                <li class="social-item">
-                  <a href="https://github.com/Farzane2630" class="social-link">
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Farzane2630" class="social-link">
                      <SiGithub />
                   </a>
                </li>
 
                <li class="social-item">
-                  <a href="https://medium.com/@farzanekazemi8517" class="social-link">
+                  <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@farzanekazemi8517" class="social-link">
                      <SiMedium />
                   </a>
                </li>
 
                <li class="social-item">
-                  <a href="https://www.xing.com/profile/Farzaneh_Kazemi3/web_profiles?expandNeffi=true" class="social-link">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.xing.com/profile/Farzaneh_Kazemi3/web_profiles?expandNeffi=true" class="social-link">
                      <SiXing />
                   </a>
                </li>
 
                <li class="social-item">
-                  <a href="https://stackoverflow.com/users/19888516/farzane-kazemi" class="social-link">
+                  <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/19888516/farzane-kazemi" class="social-link">
                      <SiStackoverflow />
                   </a>
                </li>
-               
-               {/* <li class="social-item">
-                  <a href="" class="social-link">
-                     <SiWhatsapp />
-                  </a>
-               </li> */}
 
             </ul>
 
