@@ -24,21 +24,26 @@ export default function Portfolio() {
                   Nextjs - Cafe website
                 </h5>
               </div>
+              <img src="/images/cafe-next-js.jpg" alt="e-commerce website" className='project-img' />
               <div className="project-details">
+                <p className="project-description-title">
+                  Project Details:
+                </p>
                 <p className="project-description">
-                  This is a cafe website built with Next.js, Tailwind CSS, and Framer Motion. 
+                  This is a cafe website built with Next.js.
                   It features a responsive design and smooth animations.
-                  The website showcases the cafe's menu, location, and contact information.
+                  Users can reserve a table, search for drinks in searchbox, and register for the newsletter directly through the website.
+                  The website showcases the cafe's menu, about page, testimonials, reservation form and contact information.
                   It is designed to provide a seamless user experience across all devices.
                   The website is hosted on Vercel, ensuring fast load times and reliability.
                   The project demonstrates my skills in modern web development and design.
-                    Users can reserve a table, order coffee, submit reviews, and register for the newsletter directly through the website.
                 </p>
                 <p className="project-tech-stack">
-                  Tech Stack: Next.js, Tailwind CSS, Framer Motion
+                  #Main Tech Stack: 
+                  <br />
+                  - Next.js
                 </p>
               </div>
-              <img src="/images/cafe-next-js.jpg" alt="e-commerce website" className='project-img' />
             </a>
           </li>
         </ul>
@@ -53,6 +58,34 @@ export default function Portfolio() {
               </h5>
             </div>
             <img src="/images/vegi.png" alt="vegeefood - ecommerce website" className='project-img' />
+
+            <div className="project-details">
+              <p className="project-description-title">
+                Project Details:
+              </p>
+              <p className="project-description">
+                This is an e-commerce website to purchase groceries online build with Reactjs.
+                <br />
+                #Features
+                <br />
+                - add/remove products into cart
+                <br />
+                - add/remove products into wishlist
+                <br />
+                - register in newsletter
+                <br />
+                - filter products based on categories
+                <br />
+                - countdown timer for best price
+                <br />
+                - checkout and finalize shopping
+              </p>
+              <p className="project-tech-stack">
+                #Main Tech Stack:
+                <br />
+                - Reactjs, Redux, Redux Toolkit, Webpack, MUI, SASS, Swiperjs
+              </p>
+            </div>
           </li>
         </ul>
 
