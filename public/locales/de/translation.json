@@ -31,14 +31,14 @@
         "title": "Berufserfahrung",
         "sub_title": "Hauptverantwortlichkeiten:",
         "job_1": {
-          "position": "Frontend-Entwickler",
-          "date": "Juli 2020 – heute",
-          "details": "Raintech International Holding / Vollzeit / Vor Ort",
+          "position": "Junior Frontend-Entwicklerin",
+          "date": "April 2022 – Dezember 2024",
+          "details": "Raintech Holding / Vollzeit / Remote",
           "desc": "Dieses Unternehmen ist auf Versicherungstechnologien (Insurtech) spezialisiert und bietet Content-Management-Systeme (CMS) für Versicherungsunternehmen und Agenturen an. In dieser Position arbeite ich mit meinem Team zusammen, um effiziente und benutzerfreundliche Admin-Panels zu erstellen, um unseren Kunden ein unglaubliches Erlebnis zu bieten und ihnen dabei zu helfen, ihre Aufgaben und Kunden so effektiv wie möglich zu verwalten. Zusätzlich entwickeln wir Services, die es Kunden ermöglichen, Versicherungen für ihre Besitztümer wie Autos, Handys, Laptops und andere elektronische Geräte unabhängig und direkt über unsere Anwendungen abzuschließen.",
           "res": {
-            "1": "- Entwicklung, Pflege und Verbesserung des aktuellen Frontends.",
-            "2": "- Zusammenarbeit mit anderen Teammitgliedern, wie Backend-Entwicklern, Designern und Produktmanagern, um einen reibungslosen Produktionsablauf sicherzustellen.",
-            "3": "- Entwicklung neuer Content-Management-Systeme (CMS)."
+            "1": "- Frontend- und Backend-Entwicklung: Entwurf und Entwicklung von Single-Page-Anwendungen(SPA), die responsiv und benutzerfreundlich sind.",
+            "2": "- Wiederverwendbare Komponenten & Tests: Entwicklung komplexer Komponenten (z.B. Formulare, Paginierung, Diagramme) inklusive Unit- und Integrationstests zur Sicherstellung der Funktionalität./ Codequalität & Optimierung: Verantwortung für die Codebasis durch hohe Standards, Dokumentation, Anwendung von Best Practices und Performance-Optimierung durch Refactoring. Wartung und Refactoring von Legacy-Code.",
+            "3": "- Projekte: Entwicklung von Admin-Management-Dashboards für Versicherungsgesellschaften (Kfz-Versicherung) sowie einer Anwendung zur Überprüfung der technischen Gesundheit elektrischer Geräte wie Smartphones und Tablets. Zudem Erstellung einer Demo für diese Projekte."
           }
         },
         "job_2": {

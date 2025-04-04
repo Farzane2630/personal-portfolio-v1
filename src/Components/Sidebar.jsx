@@ -138,11 +138,11 @@ export default function Sidebar() {
                   </a>
                </li>
 
-               <li class="social-item">
+               {/* <li class="social-item">
                   <a target="_blank" rel="noopener noreferrer" href="https://www.xing.com/profile/Farzaneh_Kazemi3/web_profiles?expandNeffi=true" class="social-link">
                      <SiXing />
                   </a>
-               </li>
+               </li> */}
 
                <li class="social-item">
                   <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/19888516/farzane-kazemi" class="social-link">

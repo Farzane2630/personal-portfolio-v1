@@ -32,13 +32,13 @@
         "sub_title": "Main Responsibilities:",
         "job_1": {
           "position": "Frontend Developer",
-          "date": "July 2020 – Present",
+          "date": "April 2022 – December 2024",
           "details": "Raintech International Holding / Full-time / On-site",
           "desc": "This company is involved in Insurance Technologies (Insurtech) and offers Content Management Systems (CMS) to insurance firms and agencies. In this position, I collaborate with my team to create efficient and user-friendly admin panels, providing an incredible experience to our customers and helping them manage their tasks and clients as effectively as possible. Additionally, we develop services that allow clients to independently and directly purchase insurance for their belongings, such as cars, cellphones, laptops, and other electronic devices, using our applications.",
           "res": {
-            "1": "- Developing, maintaining, and improving the current frontend.",
-            "2": "- Collaborating with other team members, such as backend developers, designers, and product managers, to ensure a smooth production flow.",
-            "3": "- Developing new Content Management Systems (CMS)."
+            "1": "- Frontend and Backend Development: Design and development of responsive and user-friendly Single Page Applications (SPAs).",
+            "2": "- Reusable Components & Testing: Development of complex components (e.g., forms, pagination, charts) including unit and integration tests to ensure functionality. / Code Quality & Optimization: Responsibility for the codebase through high standards, documentation, application of best practices, and performance optimization via refactoring. Maintenance and refactoring of legacy code.",
+            "3": "- Projects: Development of admin management dashboards for insurance companies (car insurance), as well as an application for checking the technical health of electronic devices such as smartphones and tablets. Additionally, creation of a demo for these projects."
           }
         },
         "job_2": {

@@ -64,7 +64,7 @@ export default function Resume() {
               {t('pages.resume.ex.job_1.res.3')}
             </p>
           </li>
-
+{/* 
           <li class="timeline-item">
 
             <h4 class="h4 timeline-item-title">
@@ -92,7 +92,7 @@ export default function Resume() {
             <p class="timeline-text">
               {t('pages.resume.ex.job_2.res.2')}
             </p>
-          </li>
+          </li> */}
 
 
         </ol>
