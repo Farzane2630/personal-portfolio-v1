@@ -18,6 +18,48 @@ export default function Portfolio() {
 
         <ul class="skills-list content-card">
           <li class="skills-item project_wrapper" >
+            <a href="https://vegeeshop-app.vercel.app/#" target="_blank" rel="noopener noreferrer">
+              <div class="title-wrapper">
+                <h5 class="h5">
+                  Reactjs - Vegeefood - E-commerce website
+                </h5>
+              </div>
+              <img src="/images/vegi.png" alt="vegeefood - ecommerce website" className='project-img' />
+
+              <div className="project-details">
+
+                <p className="project-description-title">
+                  Project Details:
+                </p>
+                <p className="project-description">
+                  This is an e-commerce website to purchase groceries online build with Reactjs.
+                  <br />
+                  #Features
+                  <br />
+                  - add/remove products into cart
+                  <br />
+                  - add/remove products into wishlist
+                  <br />
+                  - register in newsletter
+                  <br />
+                  - filter products based on categories
+                  <br />
+                  - countdown timer for best price
+                  <br />
+                  - checkout and finalize shopping
+                </p>
+                <p className="project-tech-stack">
+                  #Main Tech Stack:
+                  <br />
+                  - Reactjs, Redux, Redux Toolkit, Webpack, MUI, SASS, Swiperjs
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="skills-list content-card">
+          <li class="skills-item project_wrapper" >
             <a href="https://cafe-website-pi.vercel.app/" target="_blank" rel="noopener noreferrer">
               <div class="title-wrapper">
                 <h5 class="h5">
@@ -91,84 +133,43 @@ export default function Portfolio() {
 
         <br></br>
 
-        <ul class="skills-list content-card">
-          <li class="skills-item project_wrapper" >
-            <a href="https://github.com/Farzane2630/My-VegeShop" target="_blank" rel="noopener noreferrer">
-              <div class="title-wrapper">
-                <h5 class="h5">
-                  Reactjs - Vegeefood - E-commerce website
-                </h5>
-              </div>
-              <img src="/images/vegi.png" alt="vegeefood - ecommerce website" className='project-img' />
-
-              <div className="project-details">
-
-                <p className="project-description-title">
-                  Project Details:
-                </p>
-                <p className="project-description">
-                  This is an e-commerce website to purchase groceries online build with Reactjs.
-                  <br />
-                  #Features
-                  <br />
-                  - add/remove products into cart
-                  <br />
-                  - add/remove products into wishlist
-                  <br />
-                  - register in newsletter
-                  <br />
-                  - filter products based on categories
-                  <br />
-                  - countdown timer for best price
-                  <br />
-                  - checkout and finalize shopping
-                </p>
-                <p className="project-tech-stack">
-                  #Main Tech Stack:
-                  <br />
-                  - Reactjs, Redux, Redux Toolkit, Webpack, MUI, SASS, Swiperjs
-                </p>
-              </div>
-            </a>
-          </li>
-        </ul>
 
         <br></br>
 
         <ul class="skills-list content-card">
           <a href='https://github.com/Farzane2630/marketing-agency' target="_blank" rel="noopener noreferrer">
-          <li class="skills-item project_wrapper" >
-            <div class="title-wrapper">
-              <h5 class="h5">
-                Marketing Agency - Corporate Website
-              </h5>
-            </div>
-            <img src="/images/corporate_website_First_Frame.png" alt="corporate_website_First_Frame" className='project-img' />
-            <div className="project-details">
-              <p className="project-description-title">
-                Project Details:
-              </p>
-              <p className="project-description">
-                This is a corporate website for a marketing agency.This project is a showcase of my skills in web development and design.
-                This is one of my first projects when I started lerning React, and I am proud of the outcome.
-                * The comment section might not work properly since I have used the firebase free plan and it has some limitations.
-                <br />
-                #Features
-                <br />
-                - responsive design
-                <br />
-                - smooth animations
-                <br />
-                - comment section
-              </p>
-              <p className="project-tech-stack">
-                #Main Tech Stack:
-                <br />
-                - Reactjs (Class component), React Router, Boostrap, Firebase
-              </p>  
-            </div>
-          </li>
-            </a>
+            <li class="skills-item project_wrapper" >
+              <div class="title-wrapper">
+                <h5 class="h5">
+                  Marketing Agency - Corporate Website
+                </h5>
+              </div>
+              <img src="/images/corporate_website_First_Frame.png" alt="corporate_website_First_Frame" className='project-img' />
+              <div className="project-details">
+                <p className="project-description-title">
+                  Project Details:
+                </p>
+                <p className="project-description">
+                  This is a corporate website for a marketing agency.This project is a showcase of my skills in web development and design.
+                  This is one of my first projects when I started lerning React, and I am proud of the outcome.
+                  * The comment section might not work properly since I have used the firebase free plan and it has some limitations.
+                  <br />
+                  #Features
+                  <br />
+                  - responsive design
+                  <br />
+                  - smooth animations
+                  <br />
+                  - comment section
+                </p>
+                <p className="project-tech-stack">
+                  #Main Tech Stack:
+                  <br />
+                  - Reactjs (Class component), React Router, Boostrap, Firebase
+                </p>
+              </div>
+            </li>
+          </a>
         </ul>
 
         <br></br>
