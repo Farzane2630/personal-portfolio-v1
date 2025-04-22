@@ -106,7 +106,7 @@ export default function Sidebar() {
                         {t('sidebar.location')}
                      </p>
 
-                     <address>Germany</address>
+                     <address>Iran</address>
                   </div>
 
                </li>
