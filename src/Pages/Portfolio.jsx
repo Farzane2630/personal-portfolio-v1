@@ -21,7 +21,7 @@ export default function Portfolio() {
             <a href="https://vegeeshop-app.vercel.app/#" target="_blank" rel="noopener noreferrer">
               <div class="title-wrapper">
                 <h5 class="h5">
-                  Reactjs - Vegeefood - E-commerce website
+                  React - Vegeefood - E-commerce website
                 </h5>
               </div>
               <img src="/images/vegi.png" alt="vegeefood - ecommerce website" className='project-img' />
@@ -33,6 +33,7 @@ export default function Portfolio() {
                 </p>
                 <p className="project-description">
                   This is an e-commerce website to purchase groceries online build with Reactjs.
+                  I have used json-server as database and deployed my backend on Glitch.
                   <br />
                   #Features
                   <br />
@@ -46,12 +47,12 @@ export default function Portfolio() {
                   <br />
                   - countdown timer for best price
                   <br />
-                  - checkout and finalize shopping
+                  - checkout and finalizing Purchased Products
                 </p>
                 <p className="project-tech-stack">
                   #Main Tech Stack:
                   <br />
-                  - Reactjs, Redux, Redux Toolkit, Webpack, MUI, SASS, Swiperjs
+                  - Reactjs, Redux, Redux Toolkit, Webpack, MUI, SASS, Swiperjs, React Hook Form,
                 </p>
               </div>
             </a>
@@ -109,15 +110,22 @@ export default function Portfolio() {
                   Project Details:
                 </p>
                 <p className="project-description">
-                  This is meanstack travel weblog with below features:
+                  This is meanstack travel Blog that I have developed the frontend using Angular and Typescript. The backend is developed by me too, using Node.js and Express.js.
+                  For database I have used MongoDB and MongoDB Atlas.
+                  I have also dockerized this mean-stack app.
+                  For design I have made the use of popular "Tailwindcss".
                   <br />
                   #Features
                   <br />
-                  - signIn, signOut, email ver
+                  - signUp, signOut, email verification, logIn and reset password
                   <br />
-                  - like and dislike articles, save articles in profile
+                  - like and dislike articles, save articles in saves section in profile
                   <br />
-                  - Publishing articles
+                  - Edit profile and set avatar
+                  <br />
+                  - Writing and Publishing articles
+                  <br />
+                  - Leave comments, answer, like and dislike comments
                   <br />
                   - Responsive design
                 </p>
@@ -151,7 +159,7 @@ export default function Portfolio() {
                 </p>
                 <p className="project-description">
                   This is a corporate website for a marketing agency.This project is a showcase of my skills in web development and design.
-                  This is one of my first projects when I started lerning React, and I am proud of the outcome.
+                  This is one of my first projects when I started lerning React, and I am so proud of the outcome.
                   * The comment section might not work properly since I have used the firebase free plan and it has some limitations.
                   <br />
                   #Features
@@ -189,21 +197,23 @@ export default function Portfolio() {
                   Project Details:
                 </p>
                 <p className="project-description">
-                  This is a service to shorten URLs.
-                  * This might not work properly since I have used a free plan API and it has some limitations.
+                  This is a service to shorten long URLs.
+
                   <br />
                   #Features
                   <br />
-                  - shorten long URLs
+                  - Shortening long URLs
                   <br />
-                  - copy shortened URL
+                  - Copying shortened URL
                   <br />
-                  - responsive design
+                  - Saving previous URLs
+                  <br />
+                  - Responsive design
                 </p>
                 <p className="project-tech-stack">
                   #Main Tech Stack:
                   <br />
-                  - Reactjs, Redux, MUI, SASS
+                  - Reactjs, Redux, SASS, json-server, Formik
                 </p>
               </div>
             </a>
@@ -211,30 +221,6 @@ export default function Portfolio() {
         </ul>
 
         <br></br>
-
-        {/* <ul class="skills-list content-card">
-          <li class="skills-item project_wrapper" >
-            <div class="title-wrapper">
-              <h5 class="h5">
-                Admin Dashboard {t('pages.portfolio.project1.header')}
-              </h5>
-            </div>
-            <img src="/images/Kronos.png" alt="Kronos CMS" className='project-img' />
-          </li>
-        </ul> */}
-
-        {/* <br></br>
-
-        <ul class="skills-list content-card">
-          <li class="skills-item project_wrapper" >
-            <div class="title-wrapper">
-              <h5 class="h5">
-                Admin Dashboard {t('pages.portfolio.project1.header')}
-              </h5>
-            </div>
-            <img src="/images/signup.png" alt="Kronos CMS" className='project-img' />
-          </li>
-        </ul> */}
 
       </section>
     </article>
