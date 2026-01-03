@@ -95,7 +95,7 @@ export default function Portfolio() {
 
         <ul class="skills-list content-card">
           <li class="skills-item project_wrapper" >
-            <a href="https://travelhub-git-master-farzane2630s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://travelhub-liart.vercel.app/" target="_blank" rel="noopener noreferrer">
 
               <div class="title-wrapper">
                 <h5 class="h5">
