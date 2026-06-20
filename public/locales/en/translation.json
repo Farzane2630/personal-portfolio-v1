@@ -14,9 +14,9 @@
     },
     "about_me": {
       "desc": {
-        "p1": "I'm a passionate tech geek, working in web development and responsible for the frontend. I enjoy transforming complex problems into simple, beautiful, and intuitive features to make the world simpler and more enjoyable.",
-        "p2": "My job is to build your website to be functional, responsive, and user-friendly. In other words, I turn your imaginations into the real world and present them to your clients in the form of websites and web applications.",
-        "p3": "Moreover, I have a keen eye for details and guarantee that the result of my work matches the provided UI design."
+        "p1": "I'm a passionate frontend developer with 4+ years of professional experience, specializing in React, TypeScript, and building responsive, user-friendly interfaces. I enjoy turning complex problems into simple, beautiful, and intuitive features that make the web easier and more enjoyable to use.",
+        "p2": "Beyond client work, I'm currently designing, building, and operating My Panel App \u2014 a live, multi-tenant SaaS booking platform \u2014 end-to-end: frontend, backend, infrastructure, and deployment. In other words, I don't just build interfaces, I ship full products from first commit to production.",
+        "p3": "I'm also pursuing a B.Sc. in Computer Engineering alongside my work, and I have a keen eye for detail \u2014 I guarantee that the result of my work matches the provided UI design, pixel for pixel."
       },
       "langs": {
         "title": "Languages",
@@ -32,7 +32,7 @@
         "sub_title": "Main Responsibilities:",
         "job_1": {
           "position": "Frontend Developer",
-          "date": "April 2022 – December 2024",
+          "date": "April 2022 – February 2025",
           "details": "Raintech International Holding / Full-time / On-site",
           "desc": "This company is involved in Insurance Technologies (Insurtech) and offers Content Management Systems (CMS) to insurance firms and agencies. In this position, I collaborate with my team to create efficient and user-friendly admin panels, providing an incredible experience to our customers and helping them manage their tasks and clients as effectively as possible. Additionally, we develop services that allow clients to independently and directly purchase insurance for their belongings, such as cars, cellphones, laptops, and other electronic devices, using our applications.",
           "res": {
@@ -42,13 +42,14 @@
           }
         },
         "job_2": {
-          "position": "Frontend Developer",
-          "date": "September 2019 - Present",
-          "details": "Freelancing / Remote",
-          "desc": "As a freelance developer, I have had the opportunity to gain hands-on experience in various projects, including educational websites, online shops, and e-commerce projects. In this role, I have learned a lot and expanded my knowledge not only in technical fields but also in communication skills. I have gained a deep understanding of marketing and financial aspects. Moreover, I have become proficient in time management.",
+          "position": "Founder & Full-Stack Developer",
+          "date": "October 2025 – Present",
+          "details": "My Panel App / Self-Employed / Remote",
+          "desc": "My Panel App is a live, multi-tenant SaaS appointment-booking platform I designed and built from scratch for service-based businesses such as salons and clinics. The platform is fully bilingual (Persian/English) with automatic RTL/LTR switching, and I own every layer of the stack — from the React/TypeScript frontend to the Node.js/Express/MongoDB backend and the production infrastructure.",
           "res": {
-            "1": "- Completing various tasks for different clients, providing them with an improved frontend experience.",
-            "2": "- Collaborating with development teams and being responsible for parts of projects, as well as refactoring source codes and debugging."
+            "1": "- Full-Stack Architecture: Built the platform end-to-end with React, TypeScript, Vite, Node.js, Express, and MongoDB, including secure authentication via HttpOnly cookies and Axios interceptor-based token refresh.",
+            "2": "- Bilingual & Infrastructure: Engineered a centralized Persian/English translation layer with locale-aware backend middleware, bilingual PDF invoicing with correct RTL typography, and a full deployment pipeline across Cloudflare, Vercel, Render, Supabase, and Resend.",
+            "3": "- Product Ownership: Solved real production issues spanning networking, file uploads, and dynamic calendar scheduling (FullCalendar) while operating the live product solo."
           }
         }
       },
@@ -79,6 +80,15 @@
     "portfolio":{
       "project1": {
         "header": "for an Insurance company"
+      },
+      "labels": {
+        "details_title": "Project Details:",
+        "tech_title": "#Main Tech Stack:"
+      },
+      "saas": {
+        "title": "React / Node \u2014 My Panel App \u2014 Multi-Tenant SaaS Booking Platform",
+        "description": "My Panel App is a live, multi-tenant SaaS appointment-booking platform that I designed, built, and operate end-to-end for service-based businesses such as salons and clinics. It is fully bilingual (Persian/English) with automatic RTL/LTR switching, and I own every layer of the stack \u2014 frontend, backend, infrastructure, and deployment.\n#Features\n- Multi-tenant booking system with admin-controlled business panels\n- Bilingual UI (Persian/English) with automatic RTL/LTR switching\n- Secure authentication with HttpOnly cookies and automatic token refresh\n- Dynamic scheduling calendar (FullCalendar) with real-time availability\n- Bilingual PDF invoice generation with correct Persian RTL typography\n- Custom domain, DNS, and a full production deployment pipeline",
+        "tech": "- React, TypeScript, Vite, Node.js, Express.js, MongoDB, Tailwind CSS, Axios, Cloudflare, Vercel, Render, Supabase, Resend"
       }
     }
   },
