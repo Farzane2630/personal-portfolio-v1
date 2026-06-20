@@ -36,6 +36,38 @@ export default function Resume() {
           <li class="timeline-item">
 
             <h4 class="h4 timeline-item-title">
+              {t('pages.resume.ex.job_2.position')}
+            </h4>
+
+            <span>
+              {t('pages.resume.ex.job_2.date')}
+            </span>
+            <span>
+              {t('pages.resume.ex.job_2.details')}
+            </span>
+
+            <p class="timeline-text">
+              {t('pages.resume.ex.job_2.desc')}
+            </p>
+            <br />
+            <h4 class="h4 timeline-item-title">
+              {t('pages.resume.ex.sub_title')}
+            </h4>
+
+            <p class="timeline-text">
+              {t('pages.resume.ex.job_2.res.1')}
+            </p>
+            <p class="timeline-text">
+              {t('pages.resume.ex.job_2.res.2')}
+            </p>
+            <p class="timeline-text">
+              {t('pages.resume.ex.job_2.res.3')}
+            </p>
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">
               {t('pages.resume.ex.job_1.position')}
             </h4>
 
@@ -64,36 +96,6 @@ export default function Resume() {
               {t('pages.resume.ex.job_1.res.3')}
             </p>
           </li>
-{/* 
-          <li class="timeline-item">
-
-            <h4 class="h4 timeline-item-title">
-              {t('pages.resume.ex.job_2.position')}
-            </h4>
-
-            <span>
-              {t('pages.resume.ex.job_2.date')}
-            </span>
-            <span>
-              {t('pages.resume.ex.job_2.details')}
-            </span>
-
-            <p class="timeline-text">
-              {t('pages.resume.ex.job_2.desc')}
-            </p>
-            <br />
-            <h4 class="h4 timeline-item-title">
-              {t('pages.resume.ex.sub_title')}
-            </h4>
-
-            <p class="timeline-text">
-              {t('pages.resume.ex.job_2.res.1')}
-            </p>
-            <p class="timeline-text">
-              {t('pages.resume.ex.job_2.res.2')}
-            </p>
-          </li> */}
-
 
         </ol>
 
