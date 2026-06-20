@@ -14,9 +14,9 @@
     },
     "about_me": {
       "desc": {
-        "p1": "Ich bin ein leidenschaftlicher Tech-Enthusiast, der in der Webentwicklung arbeitet und für das Frontend verantwortlich ist. Ich liebe es, komplexe Probleme in einfache, schöne und intuitive Funktionen umzuwandeln, um die Welt einfacher und angenehmer zu gestalten.",
-        "p2": "Meine Aufgabe besteht darin, Ihre Website funktionsfähig, reaktionsschnell und benutzerfreundlich zu gestalten. Mit anderen Worten, ich setze Ihre Vorstellungen in die reale Welt um und präsentiere sie Ihren Kunden in Form von Websites und Webanwendungen.",
-        "p3": "Darüber hinaus habe ich ein gutes Auge für Details und garantiere, dass das Ergebnis meiner Arbeit genauso ist wie das von mir bereitgestellte UI-Design."
+        "p1": "Ich bin eine leidenschaftliche Frontend-Entwicklerin mit über 4 Jahren Berufserfahrung, spezialisiert auf React, TypeScript und die Entwicklung responsiver, benutzerfreundlicher Benutzeroberflächen. Ich liebe es, komplexe Probleme in einfache, schöne und intuitive Funktionen zu verwandeln, die das Web einfacher und angenehmer nutzbar machen.",
+        "p2": "Neben der Arbeit für Kunden entwickle, baue und betreibe ich derzeit My Panel App \u2014 eine live, mandantenfähige SaaS-Buchungsplattform \u2014 end-to-end: Frontend, Backend, Infrastruktur und Deployment. Mit anderen Worten: Ich entwerfe nicht nur Benutzeroberflächen, sondern liefere vollständige Produkte vom ersten Commit bis zur Produktion.",
+        "p3": "Außerdem studiere ich parallel zu meiner Arbeit Computertechnik (B.Sc.) und habe ein gutes Auge für Details \u2014 ich garantiere, dass das Ergebnis meiner Arbeit pixelgenau dem bereitgestellten UI-Design entspricht."
       },
       "langs": {
         "title": "Sprachen",
@@ -31,9 +31,9 @@
         "title": "Berufserfahrung",
         "sub_title": "Hauptverantwortlichkeiten:",
         "job_1": {
-          "position": "Junior Frontend-Entwicklerin",
-          "date": "April 2022 – Dezember 2024",
-          "details": "Raintech Holding / Vollzeit / Remote",
+          "position": "Frontend-Entwicklerin",
+          "date": "April 2022 – Februar 2025",
+          "details": "Raintech International Holding / Vollzeit / Vor Ort",
           "desc": "Dieses Unternehmen ist auf Versicherungstechnologien (Insurtech) spezialisiert und bietet Content-Management-Systeme (CMS) für Versicherungsunternehmen und Agenturen an. In dieser Position arbeite ich mit meinem Team zusammen, um effiziente und benutzerfreundliche Admin-Panels zu erstellen, um unseren Kunden ein unglaubliches Erlebnis zu bieten und ihnen dabei zu helfen, ihre Aufgaben und Kunden so effektiv wie möglich zu verwalten. Zusätzlich entwickeln wir Services, die es Kunden ermöglichen, Versicherungen für ihre Besitztümer wie Autos, Handys, Laptops und andere elektronische Geräte unabhängig und direkt über unsere Anwendungen abzuschließen.",
           "res": {
             "1": "- Frontend- und Backend-Entwicklung: Entwurf und Entwicklung von Single-Page-Anwendungen(SPA), die responsiv und benutzerfreundlich sind.",
@@ -42,13 +42,14 @@
           }
         },
         "job_2": {
-          "position": "Frontend-Entwickler",
-          "date": "September 2019 - heute",
-          "details": "Freiberuflich / Remote",
-          "desc": "Als freiberuflicher Entwickler hatte ich die Möglichkeit, praktische Erfahrungen in verschiedenen Projekten zu sammeln, darunter Bildungswebsites, Online-Shops und E-Commerce-Projekte. In dieser Rolle habe ich viel gelernt und mein Wissen nicht nur in technischen Bereichen, sondern auch in Kommunikationsfähigkeiten erweitert. Ich habe ein tiefes Verständnis für Marketing und Finanzaspekte gewonnen. Darüber hinaus habe ich meine Zeitmanagement-Fähigkeiten professionalisiert.",
+          "position": "Gründerin & Full-Stack-Entwicklerin",
+          "date": "Oktober 2025 – heute",
+          "details": "My Panel App / Selbstständig / Remote",
+          "desc": "My Panel App ist eine live, mandantenfähige SaaS-Buchungsplattform, die ich von Grund auf für dienstleistungsbasierte Unternehmen wie Friseursalons und Kliniken entwickelt habe. Die Plattform ist vollständig zweisprachig (Persisch/Englisch) mit automatischer RTL/LTR-Umschaltung, und ich verantworte jede Ebene des Stacks \u2014 vom React/TypeScript-Frontend bis zum Node.js/Express/MongoDB-Backend und der Produktionsinfrastruktur.",
           "res": {
-            "1": "- Abschluss verschiedener Aufgaben für unterschiedliche Kunden, um ihnen eine verbesserte Frontend-Erfahrung zu bieten.",
-            "2": "- Zusammenarbeit mit Entwicklungsteams und Verantwortung für Teile von Projekten sowie Refactoring von Quellcodes und Debugging."
+            "1": "- Full-Stack-Architektur: Aufbau der Plattform end-to-end mit React, TypeScript, Vite, Node.js, Express und MongoDB, einschließlich sicherer Authentifizierung über HttpOnly-Cookies und Axios-Interceptor-basierter Token-Erneuerung.",
+            "2": "- Zweisprachigkeit & Infrastruktur: Entwicklung einer zentralisierten Persisch/Englisch-Übersetzungsschicht mit sprachsensitiver Backend-Middleware, zweisprachiger PDF-Rechnungsstellung mit korrekter RTL-Typografie sowie einer vollständigen Deployment-Pipeline über Cloudflare, Vercel, Render, Supabase und Resend.",
+            "3": "- Produktverantwortung: Lösung realer Produktionsprobleme in den Bereichen Netzwerk, Datei-Uploads und dynamische Kalenderplanung (FullCalendar) bei gleichzeitigem Alleinbetrieb des Live-Produkts."
           }
         }
       },
@@ -79,6 +80,15 @@
     "portfolio": {
       "project1": {
         "header": "für eine Versicherungsgesellschaft"
+      },
+      "labels": {
+        "details_title": "Projektdetails:",
+        "tech_title": "#Haupttechnologien:"
+      },
+      "saas": {
+        "title": "React / Node \u2014 My Panel App \u2014 Mandantenfähige SaaS-Buchungsplattform",
+        "description": "My Panel App ist eine live, mandantenfähige SaaS-Buchungsplattform, die ich für dienstleistungsbasierte Unternehmen wie Friseursalons und Kliniken entworfen, gebaut und betreibe \u2014 end-to-end. Die Plattform ist vollständig zweisprachig (Persisch/Englisch) mit automatischer RTL/LTR-Umschaltung, und ich verantworte jede Ebene des Stacks \u2014 Frontend, Backend, Infrastruktur und Deployment.\n#Funktionen\n- Mandantenfähiges Buchungssystem mit administrierbaren Business-Panels\n- Zweisprachige Benutzeroberfläche (Persisch/Englisch) mit automatischer RTL/LTR-Umschaltung\n- Sichere Authentifizierung mit HttpOnly-Cookies und automatischer Token-Erneuerung\n- Dynamischer Terminkalender (FullCalendar) mit Echtzeit-Verfügbarkeit\n- Zweisprachige PDF-Rechnungsstellung mit korrekter persischer RTL-Typografie\n- Eigene Domain, DNS und eine vollständige Produktions-Deployment-Pipeline",
+        "tech": "- React, TypeScript, Vite, Node.js, Express.js, MongoDB, Tailwind CSS, Axios, Cloudflare, Vercel, Render, Supabase, Resend"
       }
     }
   },
