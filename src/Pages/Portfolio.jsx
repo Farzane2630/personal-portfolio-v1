@@ -18,6 +18,41 @@ export default function Portfolio() {
 
         <ul class="skills-list content-card">
           <li class="skills-item project_wrapper" >
+            <a href="https://mypanelapp.ir/beauty-nails" target="_blank" rel="noopener noreferrer">
+              <div class="title-wrapper">
+                <h5 class="h5">
+                  {t('pages.portfolio.saas.title')}
+                </h5>
+              </div>
+              <img src="/images/mypanelapp-preview.svg" alt="My Panel App - multi-tenant SaaS booking platform" className='project-img' />
+
+              <div className="project-details">
+
+                <p className="project-description-title">
+                  {t('pages.portfolio.labels.details_title')}
+                </p>
+                <p className="project-description">
+                  {t('pages.portfolio.saas.description').split('\n').map((line, i) => (
+                    <React.Fragment key={i}>
+                      {line}
+                      <br />
+                    </React.Fragment>
+                  ))}
+                </p>
+                <p className="project-tech-stack">
+                  {t('pages.portfolio.labels.tech_title')}
+                  <br />
+                  {t('pages.portfolio.saas.tech')}
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+
+        <br></br>
+
+        <ul class="skills-list content-card">
+          <li class="skills-item project_wrapper" >
             <a href="https://vegeeshop-app.vercel.app/#" target="_blank" rel="noopener noreferrer">
               <div class="title-wrapper">
                 <h5 class="h5">
