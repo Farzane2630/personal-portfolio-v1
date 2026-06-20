@@ -118,6 +118,22 @@ export default function Resume() {
           <li class="timeline-item">
 
             <h4 class="h4 timeline-item-title">
+              {t('pages.resume.educ.edu_0.location')}
+            </h4>
+
+            <span>
+              {t('pages.resume.educ.edu_0.date')}
+            </span>
+
+            <p class="timeline-text">
+              {t('pages.resume.educ.edu_0.desc')}
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">
               {t('pages.resume.educ.edu_1.location')}
             </h4>
 
