@@ -24,7 +24,12 @@ export default function Portfolio() {
                   {t('pages.portfolio.saas.title')}
                 </h5>
               </div>
-              <img src="/images/booking-panel.png" alt="My Panel App - multi-tenant SaaS booking platform" height="400" className='project-img' />
+              <img
+                src="/images/booking-panel.png"
+                alt="My Panel App - multi-tenant SaaS booking platform"
+                className='project-img'
+                style={{ objectFit: 'contain', backgroundColor: '#ffffff' }}
+              />
 
               <div className="project-details">
 
