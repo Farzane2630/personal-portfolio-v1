@@ -28,7 +28,7 @@ export default function Portfolio() {
                 src="/images/booking-panel.png"
                 alt="My Panel App - multi-tenant SaaS booking platform"
                 className='project-img'
-                style={{ objectFit: 'cover', backgroundColor: '#ffffff' }}
+                style={{backgroundColor: '#ffffff' }}
               />
 
               <div className="project-details">
