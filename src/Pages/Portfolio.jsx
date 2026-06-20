@@ -24,12 +24,12 @@ export default function Portfolio() {
                   {t('pages.portfolio.saas.title')}
                 </h5>
               </div>
-              <img
+              {/* <img
                 src="/images/booking-panel.png"
                 alt="My Panel App - multi-tenant SaaS booking platform"
                 className='project-img'
                 style={{backgroundColor: '#ffffff' }}
-              />
+              /> */}
 
               <div className="project-details">
 
