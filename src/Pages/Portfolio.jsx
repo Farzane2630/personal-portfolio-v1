@@ -18,7 +18,7 @@ export default function Portfolio() {
 
         <ul class="skills-list content-card">
           <li class="skills-item project_wrapper" >
-            <a href="https://mypanelapp.ir/admin-1" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Farzane2630/Multi-Tenant-Appointment-Booking-SaaS" target="_blank" rel="noopener noreferrer">
               <div class="title-wrapper">
                 <h5 class="h5">
                   {t('pages.portfolio.saas.title')}
