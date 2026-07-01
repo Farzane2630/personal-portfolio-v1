@@ -95,7 +95,7 @@ export default function Sidebar() {
 
                </li>
 
-               <li class="contact-item">
+               {/* <li class="contact-item">
 
                   <div class="icon-box">
                      <RiUserLocationFill />
@@ -109,7 +109,7 @@ export default function Sidebar() {
                      <address>Iran</address>
                   </div>
 
-               </li>
+               </li> */}
 
             </ul>
 
