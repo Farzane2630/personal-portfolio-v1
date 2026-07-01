@@ -1480,7 +1480,7 @@ textarea.form-input::-webkit-resizer {
    */
 
   .sidebar {
-    max-height: 180px;
+    min-height: fit-content;
     margin-bottom: 30px;
   }
 
