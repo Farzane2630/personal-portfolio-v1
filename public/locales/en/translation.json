@@ -1,110 +1,109 @@
 {
   "pages": {
     "navbar": {
-      "about": "Über",
-      "resume": "Lebenslauf",
+      "about": "About",
+      "resume": "Resume",
       "portfolio": "Portfolio",
-      "contact": "Kontakt"
+      "contact": "Contact"
     },
     "header": {
-      "about": "Über Mich",
-      "resume": "Lebenslauf",
+      "about": "About Me",
+      "resume": "Resume",
       "portfolio": "Portfolio",
-      "contact": "Kontakt"
+      "contact": "Contact"
     },
     "about_me": {
       "desc": {
-        "p1": "Ich bin eine leidenschaftliche Frontend-Entwicklerin mit über 4 Jahren Berufserfahrung, spezialisiert auf React, TypeScript und die Entwicklung responsiver, benutzerfreundlicher Benutzeroberflächen. Ich liebe es, komplexe Probleme in einfache, schöne und intuitive Funktionen zu verwandeln, die das Web einfacher und angenehmer nutzbar machen.",
-        "p2": "Neben der Arbeit für Kunden entwickle, baue und betreibe ich derzeit My Panel App \u2014 eine live, mandantenfähige SaaS-Buchungsplattform \u2014 end-to-end: Frontend, Backend, Infrastruktur und Deployment. Mit anderen Worten: Ich entwerfe nicht nur Benutzeroberflächen, sondern liefere vollständige Produkte vom ersten Commit bis zur Produktion.",
-        "p3": "Außerdem studiere ich parallel zu meiner Arbeit Computertechnik (B.Sc.) und habe ein gutes Auge für Details \u2014 ich garantiere, dass das Ergebnis meiner Arbeit pixelgenau dem bereitgestellten UI-Design entspricht."
+        "p1": "I'm a passionate frontend developer with 4+ years of professional experience, specializing in React, TypeScript, and building responsive, user-friendly interfaces. I enjoy turning complex problems into simple, beautiful, and intuitive features that make the web easier and more enjoyable to use.",
+        "p2": "Beyond client work, I'm currently designing, building, and operating My Panel App \u2014 a live, multi-tenant SaaS booking platform \u2014 end-to-end: frontend, backend, infrastructure, and deployment. In other words, I don't just build interfaces, I ship full products from first commit to production.",
+        "p3": "I'm also pursuing a B.Sc. in Computer Engineering alongside my work, and I have a keen eye for detail \u2014 I guarantee that the result of my work matches the provided UI design, pixel for pixel."
       },
       "langs": {
-        "title": "Sprachen",
-        "lang1": "Englisch",
-        "lang2": "Deutsch",
-        "lang3": "Persisch",
-        "profi": "Muttersprache"
+        "title": "Languages",
+        "lang1": "English",
+        "lang2": "German",
+        "lang3": "Persian",
+        "profi": "Native Speaker"
       }
     },
     "resume": {
       "ex": {
-        "title": "Berufserfahrung",
-        "sub_title": "Hauptverantwortlichkeiten:",
+        "title": "Experience",
+        "sub_title": "Main Responsibilities:",
         "job_1": {
-          "position": "Frontend-Entwicklerin",
-          "date": "April 2022 – Februar 2025",
-          "details": "Raintech International Holding / Vollzeit / Vor Ort",
-          "desc": "Dieses Unternehmen ist auf Versicherungstechnologien (Insurtech) spezialisiert und bietet Content-Management-Systeme (CMS) für Versicherungsunternehmen und Agenturen an. In dieser Position arbeite ich mit meinem Team zusammen, um effiziente und benutzerfreundliche Admin-Panels zu erstellen, um unseren Kunden ein unglaubliches Erlebnis zu bieten und ihnen dabei zu helfen, ihre Aufgaben und Kunden so effektiv wie möglich zu verwalten. Zusätzlich entwickeln wir Services, die es Kunden ermöglichen, Versicherungen für ihre Besitztümer wie Autos, Handys, Laptops und andere elektronische Geräte unabhängig und direkt über unsere Anwendungen abzuschließen.",
+          "position": "Frontend Developer",
+          "date": "April 2022 – February 2025",
+          "details": "Raintech International Holding / Full-time / On-site",
+          "desc": "This company is involved in Insurance Technologies (Insurtech) and offers Content Management Systems (CMS) to insurance firms and agencies. In this position, I collaborate with my team to create efficient and user-friendly admin panels, providing an incredible experience to our customers and helping them manage their tasks and clients as effectively as possible. Additionally, we develop services that allow clients to independently and directly purchase insurance for their belongings, such as cars, cellphones, laptops, and other electronic devices, using our applications.",
           "res": {
-            "1": "- Frontend- und Backend-Entwicklung: Entwurf und Entwicklung von Single-Page-Anwendungen(SPA), die responsiv und benutzerfreundlich sind.",
-            "2": "- Wiederverwendbare Komponenten & Tests: Entwicklung komplexer Komponenten (z.B. Formulare, Paginierung, Diagramme) inklusive Unit- und Integrationstests zur Sicherstellung der Funktionalität./ Codequalität & Optimierung: Verantwortung für die Codebasis durch hohe Standards, Dokumentation, Anwendung von Best Practices und Performance-Optimierung durch Refactoring. Wartung und Refactoring von Legacy-Code.",
-            "3": "- Projekte: Entwicklung von Admin-Management-Dashboards für Versicherungsgesellschaften (Kfz-Versicherung) sowie einer Anwendung zur Überprüfung der technischen Gesundheit elektrischer Geräte wie Smartphones und Tablets. Zudem Erstellung einer Demo für diese Projekte."
+            "1": "- Frontend and Backend Development: Design and development of responsive and user-friendly Single Page Applications (SPAs).",
+            "2": "- Reusable Components & Testing: Development of complex components (e.g., forms, pagination, charts) including unit and integration tests to ensure functionality. / Code Quality & Optimization: Responsibility for the codebase through high standards, documentation, application of best practices, and performance optimization via refactoring. Maintenance and refactoring of legacy code.",
+            "3": "- Projects: Development of admin management dashboards for insurance companies (car insurance), as well as an application for checking the technical health of electronic devices such as smartphones and tablets. Additionally, creation of a demo for these projects."
           }
         },
         "job_2": {
-          "position": "Gründerin & Full-Stack-Entwicklerin",
-          "date": "Oktober 2025 – heute",
-          "details": "My Panel App / Selbstständig / Remote",
-          "desc": "My Panel App ist eine live, mandantenfähige SaaS-Buchungsplattform, die ich von Grund auf für dienstleistungsbasierte Unternehmen wie Friseursalons und Kliniken entwickelt habe. Die Plattform ist vollständig zweisprachig (Persisch/Englisch) mit automatischer RTL/LTR-Umschaltung, und ich verantworte jede Ebene des Stacks \u2014 vom React/TypeScript-Frontend bis zum Node.js/Express/MongoDB-Backend und der Produktionsinfrastruktur.",
+          "position": "Founder & Full-Stack Developer",
+          "date": "October 2025 – Present",
+          "details": "My Panel App / Self-Employed / Remote",
+          "desc": "My Panel App is a live, multi-tenant SaaS appointment-booking platform I designed and built from scratch for service-based businesses such as salons and clinics. The platform is fully bilingual (Persian/English) with automatic RTL/LTR switching, and I own every layer of the stack — from the React/TypeScript frontend to the Node.js/Express/MongoDB backend and the production infrastructure.",
           "res": {
-            "1": "- Full-Stack-Architektur: Aufbau der Plattform end-to-end mit React, TypeScript, Vite, Node.js, Express und MongoDB, einschließlich sicherer Authentifizierung über HttpOnly-Cookies und Axios-Interceptor-basierter Token-Erneuerung.",
-            "2": "- Zweisprachigkeit & Infrastruktur: Entwicklung einer zentralisierten Persisch/Englisch-Übersetzungsschicht mit sprachsensitiver Backend-Middleware, zweisprachiger PDF-Rechnungsstellung mit korrekter RTL-Typografie sowie einer vollständigen Deployment-Pipeline über Cloudflare, Vercel, Render, Supabase und Resend.",
-            "3": "- Produktverantwortung: Lösung realer Produktionsprobleme in den Bereichen Netzwerk, Datei-Uploads und dynamische Kalenderplanung (FullCalendar) bei gleichzeitigem Alleinbetrieb des Live-Produkts."
+            "1": "- Full-Stack Architecture: Built the platform end-to-end with React, TypeScript, Vite, Node.js, Express, and MongoDB, including secure authentication via HttpOnly cookies and Axios interceptor-based token refresh.",
+            "2": "- Bilingual & Infrastructure: Engineered a centralized Persian/English translation layer with locale-aware backend middleware, bilingual PDF invoicing with correct RTL typography, and a full deployment pipeline across Cloudflare, Vercel, Render, Supabase, and Resend.",
+            "3": "- Product Ownership: Solved real production issues spanning networking, file uploads, and dynamic calendar scheduling (FullCalendar) while operating the live product solo."
           }
         }
       },
       "educ": {
-        "title": "Bildung",
+        "title": "Education",
         "edu_0": {
-          "location": "B.SC. COMPUTERTECHNIK \u2014 EYVANEKEY UNIVERSITY",
-          "date": "August 2025 – heute",
-          "desc": "Ich studiere derzeit Computertechnik (B.Sc.) an der Eyvanekey University, parallel zu meiner selbstständigen Tätigkeit als Full-Stack-Entwicklerin an My Panel App. Der Studienplan umfasst Datenstrukturen und Algorithmen, diskrete Mathematik, formale Sprachen, elektrische Schaltungen und Differentialgleichungen \u2014 das theoretische Fundament hinter den Produktionssystemen, die ich täglich baue."
+          "location": "B.SC. COMPUTER ENGINEERING — EYVANEKEY UNIVERSITY",
+          "date": "August 2025 – Present",
+          "desc": "Currently studying for my Bachelor's degree in Computer Engineering at Eyvanekey University, alongside running My Panel App as a self-employed full-stack developer. Coursework covers data structures and algorithms, discrete mathematics, formal language theory, electrical circuits, and differential equations \u2014 the theoretical foundation behind the production systems I build day to day."
         },
         "edu_1": {
-          "location": "ONLINE BOOTCAMP - WEB ENTWICKLUNG",
+          "location": "ONLINE BOOTCAMP - WEB DEVELOPMENT",
           "date": "2020 – 2022",
-          "desc": "Dieses Online-Bootcamp war ein Teilzeitprogramm, das ich neben meiner Vollzeitstelle als SEO-Spezialist absolviert habe. Während dieses Kurses habe ich Webtechnologien und die Entwicklung von Webanwendungen erlernt. Ich habe Kenntnisse in HTML, CSS und JavaScript sowie in React und TypeScript erworben. Zudem habe ich gelernt, wie man Codebasen mit GitHub verwaltet und pflegt – eine der wichtigsten Aspekte der Entwicklung, insbesondere in einem Team. Durch diesen Kurs habe ich außerdem grundlegende Kenntnisse in der Backend-Entwicklung erworben, darunter Node.js, MongoDB, Mongoose, MySQL und Express.js. Ich habe beeindruckende Benutzeroberflächen erstellt und meinen Lernfortschritt durch kleine Projekte und praktische Erfahrungen erfolgreich gesteigert."
+          "desc": "This online bootcamp was a part-time program that I completed alongside my full-time job as an SEO specialist. During this course, I learned web technologies and how to develop web applications. I gained knowledge of HTML, CSS, and JavaScript, as well as React and TypeScript. Additionally, I learned how to manage and maintain codebases using GitHub, which is one of the most important aspects of development, especially in a team. Through this course, I also acquired fundamental backend development skills, including Node.js, MongoDB, Mongoose, MySQL, and Express.js. have created amazing user interfaces and successfully accelerated my learning through small projects and hands-on experience."
         },
         "edu_2": {
-          "location": "HIGH SCHOOL",
+          "location": "HIGHSCHOOL",
           "date": "2010 – 2014",
-          "desc": "Ich habe 4 erfolgreiche Jahre auf der High School verbracht und mit hervorragenden Noten abgeschlossen. Tatsächlich handelt es sich bei der Schule, die ich besucht habe, um keine reguläre Schule. Die Schüler müssen eine Aufnahmeprüfung bestehen, um die Erlaubnis zum Studium an dieser High School zu erhalten."
+          "desc": "I spent 4 successful years in high school and graduated with excellent grades. In fact, the school I attended is not a regular school. Students must pass an entrance exam to be granted permission to study at this high school."
         }
       },
       "tech_skills": {
-        "title": "Technische Fähigkeiten"
+        "title": "Technical Skills"
       }
     },
     "contact": {
-      "title": "Kontaktformular",
-      "input_1": "Vollständiger Name",
-      "input_2": "E-Mail-Adresse",
-      "txt_area": "Ihre Nachricht",
-      "btn": "Nachricht senden"
+      "title": "Contact Form",
+      "input_1": "Full name",
+      "input_2": "Email address",
+      "txt_area": "Your Message",
+      "btn": "Send Message"
     },
-    "portfolio": {
+    "portfolio":{
       "project1": {
-        "header": "für eine Versicherungsgesellschaft"
+        "header": "for an Insurance company"
       },
       "labels": {
-        "details_title": "Projektdetails:",
-        "tech_title": "#Haupttechnologien:"
+        "details_title": "Project Details:",
+        "tech_title": "#Main Tech Stack:"
       },
       "saas": {
-        "title": "React / Node \u2014 My Panel App \u2014 Mandantenfähige SaaS-Buchungsplattform",
-        "description": "My Panel App ist eine live, mandantenfähige SaaS-Buchungsplattform, die ich für dienstleistungsbasierte Unternehmen wie Friseursalons und Kliniken entworfen, gebaut und betreibe \u2014 end-to-end. Die Plattform ist vollständig zweisprachig (Persisch/Englisch) mit automatischer RTL/LTR-Umschaltung, und ich verantworte jede Ebene des Stacks \u2014 Frontend, Backend, Infrastruktur und Deployment.\n#Funktionen\n- Mandantenfähiges Buchungssystem mit administrierbaren Business-Panels\n- Zweisprachige Benutzeroberfläche (Persisch/Englisch) mit automatischer RTL/LTR-Umschaltung\n- Sichere Authentifizierung mit HttpOnly-Cookies und automatischer Token-Erneuerung\n- Dynamischer Terminkalender (FullCalendar) mit Echtzeit-Verfügbarkeit\n- Zweisprachige PDF-Rechnungsstellung mit korrekter persischer RTL-Typografie\n- Eigene Domain, DNS und eine vollständige Produktions-Deployment-Pipeline",
+        "title": "React / Node \u2014 My Panel App \u2014 Multi-Tenant SaaS Booking Platform",
+        "description": "My Panel App is a live, multi-tenant SaaS appointment-booking platform that I designed, built, and operate end-to-end for service-based businesses such as salons and clinics. It is fully bilingual (Persian/English) with automatic RTL/LTR switching, and I own every layer of the stack \u2014 frontend, backend, infrastructure, and deployment.\n#Features\n- Multi-tenant booking system with admin-controlled business panels\n- Bilingual UI (Persian/English) with automatic RTL/LTR switching\n- Secure authentication with HttpOnly cookies and automatic token refresh\n- Dynamic scheduling calendar (FullCalendar) with real-time availability\n- Bilingual PDF invoice generation with correct Persian RTL typography\n- Custom domain, DNS, and a full production deployment pipeline",
         "tech": "- React, TypeScript, Vite, Node.js, Express.js, MongoDB, Tailwind CSS, Axios, Cloudflare, Vercel, Render, Supabase, Resend"
       }
     }
   },
-
   "sidebar": {
-    "job_title": "Frontend-Entwickler",
-    "email": "E-Mail",
-    "phone": "Telefon",
-    "location": "Ort",
-    "birth": "Geburtstag",
-    "show_contact": "Kontakt anzeigen",
-    "hide_contact": "Kontakt ausblenden"
+    "job_title": "Frontend Developer",
+    "email": "Email",
+    "phone": "Whatsapp",
+    "location": "location",
+    "birth": "Birthday",
+    "show_contact": "Show Contact",
+    "hide_contact": "Hide Contact"
   }
 }
