@@ -1,29 +1,44 @@
 :root {
-
   /**
    * colors
    */
 
   /* gradient */
 
-  --bg-gradient-onyx: linear-gradient(to bottom right,
-      hsl(240, 1%, 25%) 3%,
-      hsl(0, 0%, 19%) 97%);
-  --bg-gradient-jet: linear-gradient(to bottom right,
+  --bg-gradient-onyx: linear-gradient(
+    to bottom right,
+    hsl(240, 1%, 25%) 3%,
+    hsl(0, 0%, 19%) 97%
+  );
+  --bg-gradient-jet:
+    linear-gradient(
+      to bottom right,
       hsla(240, 1%, 18%, 0.251) 0%,
-      hsla(240, 2%, 11%, 0) 100%), hsl(240, 2%, 13%);
-  --bg-gradient-yellow-1: linear-gradient(to bottom right,
-      hsl(45, 100%, 71%) 0%,
-      hsla(36, 100%, 69%, 0) 50%);
-  --bg-gradient-yellow-2: linear-gradient(135deg,
+      hsla(240, 2%, 11%, 0) 100%
+    ),
+    hsl(240, 2%, 13%);
+  --bg-gradient-yellow-1: linear-gradient(
+    to bottom right,
+    hsl(45, 100%, 71%) 0%,
+    hsla(36, 100%, 69%, 0) 50%
+  );
+  --bg-gradient-yellow-2:
+    linear-gradient(
+      135deg,
       hsla(45, 100%, 71%, 0.251) 0%,
-      hsla(35, 100%, 68%, 0) 59.86%), hsl(240, 2%, 13%);
-  --border-gradient-onyx: linear-gradient(to bottom right,
-      hsl(0, 0%, 25%) 0%,
-      hsla(0, 0%, 25%, 0) 50%);
-  --text-gradient-yellow: linear-gradient(to right,
-      hsl(45, 100%, 72%),
-      hsl(35, 100%, 68%));
+      hsla(35, 100%, 68%, 0) 59.86%
+    ),
+    hsl(240, 2%, 13%);
+  --border-gradient-onyx: linear-gradient(
+    to bottom right,
+    hsl(0, 0%, 25%) 0%,
+    hsla(0, 0%, 25%, 0) 50%
+  );
+  --text-gradient-yellow: linear-gradient(
+    to right,
+    hsl(45, 100%, 72%),
+    hsl(35, 100%, 68%)
+  );
 
   /* solid */
 
@@ -45,7 +60,7 @@
    */
 
   /* font-family */
-  --ff-poppins: 'Poppins', sans-serif;
+  --ff-poppins: "Poppins", sans-serif;
 
   /* font-size */
   --fs-1: 24px;
@@ -79,12 +94,7 @@
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
-
 }
-
-
-
-
 
 /*-----------------------------------*\
   #RESET
@@ -119,7 +129,6 @@ button {
   font: inherit;
   background: none;
   border: none;
-  text-align: left;
   cursor: pointer;
 }
 
@@ -147,10 +156,6 @@ html {
 body {
   background: var(--smoky-black);
 }
-
-
-
-
 
 /*-----------------------------------*\
   #REUSED STYLE
@@ -250,13 +255,10 @@ article.active {
   padding-bottom: 7px;
 }
 
-.article-title::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.article-title-after {
   width: 30px;
   height: 3px;
+  margin-bottom: 1rem;
   background: var(--text-gradient-yellow);
   border-radius: 3px;
 }
@@ -302,10 +304,6 @@ article.active {
   z-index: -1;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #MAIN
 \*-----------------------------------*/
@@ -316,17 +314,13 @@ main {
   min-width: 259px;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #SIDEBAR
 \*-----------------------------------*/
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 130px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -457,7 +451,7 @@ main {
   align-items: center;
   gap: 15px;
   padding-bottom: 4px;
-  padding-left: 7px;
+  padding-inline-start: 7px;
 }
 
 .social-item .social-link {
@@ -465,14 +459,9 @@ main {
   font-size: 18px;
 }
 
-
 .social-item .social-link:hover {
   color: var(--light-gray);
 }
-
-
-
-
 
 /*-----------------------------------*\
   #NAVBAR
@@ -481,7 +470,7 @@ main {
 .navbar {
   position: fixed;
   bottom: 0;
-  left: 0;
+  inset-inline-start: 0;
   width: 100%;
   background: hsla(240, 1%, 17%, 0.75);
   backdrop-filter: blur(10px);
@@ -500,10 +489,11 @@ main {
 }
 
 .navbar-link {
-  color: var(--light-gray);
+  color: var(--light-gray-70);
+  /* color: var(--light-gray); */
   font-size: var(--fs-8);
   padding: 20px 7px;
-  transition: color var(--transition-1);
+  /* transition: color var(--transition-1); */
 }
 
 .navbar-link:hover,
@@ -515,16 +505,12 @@ main {
   color: var(--orange-yellow-crayola);
 }
 
-
-
-
-
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
 
 .about .article-title {
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .about-text {
@@ -537,8 +523,6 @@ main {
 .about-text p {
   margin-bottom: 15px;
 }
-
-
 
 /**
  * #service 
@@ -599,7 +583,6 @@ main {
   line-height: 1.6;
 }
 
-
 /**
  * #testimonials 
  */
@@ -634,7 +617,7 @@ main {
 .testimonials-avatar-box {
   position: absolute;
   top: 0;
-  left: 0;
+  inset-inline-start: 0;
   transform: translate(15px, -25px);
   background: var(--bg-gradient-onyx);
   border-radius: 14px;
@@ -657,7 +640,6 @@ main {
   overflow: hidden;
 }
 
-
 /**
  * #testimonials-modal
  */
@@ -665,7 +647,7 @@ main {
 .modal-container {
   position: fixed;
   top: 0;
-  left: 0;
+  inset-inline-start: 0;
   width: 100%;
   height: 100%;
   display: flex;
@@ -690,7 +672,7 @@ main {
 .overlay {
   position: fixed;
   top: 0;
-  left: 0;
+  inset-inline-start: 0;
   width: 100%;
   height: 100vh;
   background: hsl(0, 0%, 5%);
@@ -781,7 +763,6 @@ main {
   line-height: 1.6;
 }
 
-
 /**
  * #clients 
  */
@@ -820,18 +801,13 @@ main {
   filter: grayscale(0);
 }
 
-
-
-
-
 /*-----------------------------------*\
   #RESUME
 \*-----------------------------------*/
 
 .article-title {
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
-
 
 /**
  * education and experience 
@@ -850,7 +826,7 @@ main {
 
 .timeline-list {
   font-size: var(--fs-6);
-  margin-left: 45px;
+  margin-inline-start: 45px;
 }
 
 .timeline-item {
@@ -877,7 +853,7 @@ main {
   content: "";
   position: absolute;
   top: -25px;
-  left: -30px;
+  inset-inline-start: -30px;
   width: 1px;
   height: calc(100% + 50px);
   background: var(--jet);
@@ -887,7 +863,7 @@ main {
   content: "";
   position: absolute;
   top: 5px;
-  left: -33px;
+  inset-inline-start: -33px;
   height: 6px;
   width: 6px;
   background: var(--text-gradient-yellow);
@@ -901,7 +877,6 @@ main {
   line-height: 1.6;
 }
 
-
 /**
  * skills 
  */
@@ -913,7 +888,6 @@ main {
 .skills-list {
   padding: 20px;
 }
-
 
 .skills-item:not(:last-child) {
   margin-bottom: 15px;
@@ -945,13 +919,15 @@ main {
   border-radius: inherit;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #PORTFOLIO
 \*-----------------------------------*/
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
 
 .filter-list {
   display: none;
@@ -1052,7 +1028,7 @@ main {
   font-weight: 400;
 }
 
-.project-description-title{
+.project-description-title {
   font-size: 24px;
   font-weight: 800;
 }
@@ -1072,7 +1048,7 @@ main {
   content: "";
   position: absolute;
   top: 0;
-  left: 0;
+  inset-inline-start: 0;
   width: 100%;
   height: 100%;
   background: transparent;
@@ -1091,7 +1067,7 @@ main {
   color: var(--orange-yellow-crayola);
   position: absolute;
   top: 50%;
-  left: 50%;
+  inset-inline-start: 50%;
   transform: translate(-50%, -50%) scale(var(--scale));
   font-size: 20px;
   padding: 18px;
@@ -1123,7 +1099,7 @@ main {
 
 .project-title,
 .project-category {
-  margin-left: 10px;
+  margin-inline-start: 10px;
 }
 
 .project-title {
@@ -1139,10 +1115,6 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
-
-
-
-
 
 /*-----------------------------------*\
   #BLOG
@@ -1235,10 +1207,6 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #CONTACT
@@ -1367,10 +1335,6 @@ textarea.form-input::-webkit-resizer {
   background: var(--bg-gradient-jet);
 }
 
-
-
-
-
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
@@ -1380,7 +1344,6 @@ textarea.form-input::-webkit-resizer {
  */
 
 @media (min-width: 450px) {
-
   /**
    * client
    */
@@ -1388,8 +1351,6 @@ textarea.form-input::-webkit-resizer {
   .clients-item {
     min-width: calc(33.33% - 10px);
   }
-
-
 
   /**
    * #PORTFOLIO, BLOG 
@@ -1399,25 +1360,18 @@ textarea.form-input::-webkit-resizer {
   .blog-banner-box {
     height: auto;
   }
-
 }
-
-
-
-
 
 /**
  * responsive larger than 580px screen
  */
 
 @media (min-width: 580px) {
-
   /**
    * CUSTOM PROPERTY
    */
 
   :root {
-
     /**
      * typography
      */
@@ -1429,10 +1383,7 @@ textarea.form-input::-webkit-resizer {
     --fs-6: 15px;
     --fs-7: 15px;
     --fs-8: 12px;
-
   }
-
-
 
   /**
    * #REUSED STYLE
@@ -1440,14 +1391,14 @@ textarea.form-input::-webkit-resizer {
 
   .sidebar,
   article {
-    width: 520px;
+    width: 100%;
     margin-inline: auto;
     padding: 30px;
   }
 
   .article-title {
     font-weight: var(--fw-600);
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
   }
 
   .article-title::after {
@@ -1462,8 +1413,6 @@ textarea.form-input::-webkit-resizer {
     font-size: 18px;
   }
 
-
-
   /**
    * #MAIN
    */
@@ -1473,14 +1422,13 @@ textarea.form-input::-webkit-resizer {
     margin-bottom: 100px;
   }
 
-
-
   /**
    * #SIDEBAR
    */
 
   .sidebar {
-    max-height: 180px;
+    min-height: fit-content;
+    padding-bottom: 2rem;
     margin-bottom: 30px;
   }
 
@@ -1536,8 +1484,6 @@ textarea.form-input::-webkit-resizer {
     width: calc(100% - 64px);
   }
 
-
-
   /**
    * #NAVBAR
    */
@@ -1554,14 +1500,12 @@ textarea.form-input::-webkit-resizer {
     --fs-8: 14px;
   }
 
-
-
   /**
    * #ABOUT
    */
 
   .about .article-title {
-    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   .about-text {
@@ -1581,10 +1525,6 @@ textarea.form-input::-webkit-resizer {
   .service-icon-box {
     margin-bottom: 0;
     margin-top: 5px;
-  }
-
-  .service-content-box {
-    text-align: left;
   }
 
   /* testimonials */
@@ -1616,7 +1556,7 @@ textarea.form-input::-webkit-resizer {
 
   .testimonials-item-title {
     margin-bottom: 10px;
-    margin-left: 95px;
+    margin-inline-start: 95px;
   }
 
   .testimonials-text {
@@ -1673,31 +1613,27 @@ textarea.form-input::-webkit-resizer {
     min-width: calc(33.33% - 35px);
   }
 
-
-
   /**
    * #RESUME
    */
 
   .timeline-list {
-    margin-left: 65px;
+    margin-inline-start: 65px;
   }
 
   .timeline-item:not(:last-child)::before {
-    left: -40px;
+    inset-inline-start: -40px;
   }
 
   .timeline-item::after {
     height: 8px;
     width: 8px;
-    left: -43px;
+    inset-inline-start: -43px;
   }
 
   .skills-item:not(:last-child) {
     margin-bottom: 25px;
   }
-
-
 
   /**
    * #PORTFOLIO, BLOG
@@ -1715,8 +1651,6 @@ textarea.form-input::-webkit-resizer {
   .blog-content {
     padding: 25px;
   }
-
-
 
   /**
    * #CONTACT
@@ -1748,19 +1682,13 @@ textarea.form-input::-webkit-resizer {
   .form-btn ion-icon {
     font-size: 18px;
   }
-
 }
-
-
-
-
 
 /**
  * responsive larger than 768px screen
  */
 
 @media (min-width: 768px) {
-
   /**
    * REUSED STYLE
    */
@@ -1774,8 +1702,6 @@ textarea.form-input::-webkit-resizer {
     width: 100px;
   }
 
-
-
   /**
    * SIDEBAR
    */
@@ -1785,8 +1711,6 @@ textarea.form-input::-webkit-resizer {
     gap: 30px 15px;
   }
 
-
-
   /**
    * NAVBAR
    */
@@ -1794,8 +1718,6 @@ textarea.form-input::-webkit-resizer {
   .navbar-link {
     --fs-8: 15px;
   }
-
-
 
   /**
    * ABOUT
@@ -1812,14 +1734,12 @@ textarea.form-input::-webkit-resizer {
     width: 80px;
   }
 
-
-
   /**
    * PORTFOLIO
    */
 
   .article-title {
-    padding-bottom: 20px;
+    padding-top: 20px;
   }
 
   .filter-select-box {
@@ -1831,7 +1751,7 @@ textarea.form-input::-webkit-resizer {
     justify-content: flex-start;
     align-items: center;
     gap: 25px;
-    padding-left: 5px;
+    padding-inline-start: 5px;
     margin-bottom: 30px;
   }
 
@@ -1856,8 +1776,6 @@ textarea.form-input::-webkit-resizer {
     grid-template-columns: 1fr 1fr;
   }
 
-
-
   /**
    * CONTACT
    */
@@ -1868,27 +1786,20 @@ textarea.form-input::-webkit-resizer {
 
   .form-btn {
     width: max-content;
-    margin-left: auto;
+    margin-inline-start: auto;
   }
-
 }
-
-
-
-
 
 /**
  * responsive larger than 1024px screen
  */
 
 @media (min-width: 1024px) {
-
   /**
    * CUSTOM PROPERTY
    */
 
   :root {
-
     /**
     * shadow
     */
@@ -1896,10 +1807,7 @@ textarea.form-input::-webkit-resizer {
     --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
     --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
     --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.125);
-
   }
-
-
 
   /**
    * REUSED STYLE
@@ -1910,8 +1818,6 @@ textarea.form-input::-webkit-resizer {
     width: 950px;
     box-shadow: var(--shadow-5);
   }
-
-
 
   /**
    * MAIN 
@@ -1927,8 +1833,6 @@ textarea.form-input::-webkit-resizer {
     margin: auto;
   }
 
-
-
   /**
    * NAVBAR
    */
@@ -1937,7 +1841,7 @@ textarea.form-input::-webkit-resizer {
     position: absolute;
     bottom: auto;
     top: 0;
-    left: auto;
+    inset-inline-start: auto;
     right: 0;
     width: max-content;
     border-radius: 0 20px;
@@ -1953,8 +1857,6 @@ textarea.form-input::-webkit-resizer {
   .navbar-link {
     font-weight: var(--fw-500);
   }
-
-
 
   /**
    * ABOUT
@@ -1979,8 +1881,6 @@ textarea.form-input::-webkit-resizer {
     min-width: calc(25% - 38px);
   }
 
-
-
   /**
    * PORTFOLIO
    */
@@ -1989,8 +1889,6 @@ textarea.form-input::-webkit-resizer {
     grid-template-columns: repeat(3, 1fr);
   }
 
-
-
   /**
    * BLOG
    */
@@ -1998,19 +1896,13 @@ textarea.form-input::-webkit-resizer {
   .blog-banner-box {
     height: 230px;
   }
-
 }
-
-
-
-
 
 /**
  * responsive larger than 1250px screen
  */
 
 @media (min-width: 1250px) {
-
   /**
    * RESET
    */
@@ -2027,7 +1919,8 @@ textarea.form-input::-webkit-resizer {
     border: 5px solid var(--smoky-black);
     background: hsla(0, 0%, 100%, 0.1);
     border-radius: 20px;
-    box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
+    box-shadow:
+      inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
       inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
   }
 
@@ -2039,14 +1932,12 @@ textarea.form-input::-webkit-resizer {
     height: 60px;
   }
 
-
-
   /**
    * REUSED STYLE
    */
 
   .sidebar {
-    width: auto
+    width: auto;
   }
 
   article {
@@ -2056,8 +1947,6 @@ textarea.form-input::-webkit-resizer {
   article {
     min-height: 100%;
   }
-
-
 
   /**
    * MAIN
@@ -2077,8 +1966,6 @@ textarea.form-input::-webkit-resizer {
     width: 75%;
     margin: 0;
   }
-
-
 
   /**
    * SIDEBAR
@@ -2144,8 +2031,6 @@ textarea.form-input::-webkit-resizer {
     justify-content: center;
   }
 
-
-
   /**
     * RESUME
     */
@@ -2153,7 +2038,6 @@ textarea.form-input::-webkit-resizer {
   .timeline-text {
     max-width: 700px;
   }
-
 }
 
 /* link style */

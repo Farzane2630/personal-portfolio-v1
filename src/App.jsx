@@ -1,22 +1,22 @@
-import { Link, useRoutes } from "react-router-dom"
+import { useRoutes } from "react-router-dom"
 import Sidebar from "./Components/Sidebar"
 import routes from "./routes"
 import { useState } from "react"
-import EnglishContext from "./context"
+import LanguageProvider from "./context"
 
 function App() {
   let router = useRoutes(routes)
-  const [isEn, setIsEn] = useState(true)
+  const [language, setLanguage] = useState("en")
   return (
-    <EnglishContext.Provider value={{
-      isEn: isEn,
-      setIsEn: setIsEn
+    <LanguageProvider.Provider value={{
+      language: language,
+      setLanguage: setLanguage
     }}>
-      <main>
+      <main style={{ direction: `${language === "fa" ? "rtl " : "ltr"}` }}>
         <Sidebar />
         {router}
       </main>
-    </EnglishContext.Provider >
+    </LanguageProvider.Provider >
   )
 }
 

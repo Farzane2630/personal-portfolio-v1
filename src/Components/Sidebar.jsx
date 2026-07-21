@@ -1,33 +1,32 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { TbMail } from "react-icons/tb"
 import { BsPhoneFlip, BsCalendarWeek } from "react-icons/bs"
-import { RiUserLocationFill } from "react-icons/ri"
-import { SiLinkedin, SiGithub, SiXing, SiStackoverflow, SiMedium, SiWhatsapp } from "react-icons/si"
+import { SiGithub, SiStackoverflow, SiMedium } from "react-icons/si"
 import { useTranslation } from 'react-i18next'
 
 export default function Sidebar() {
 
    const [isShowContact, setIsShowContact] = useState(false)
-   const { t, i18n } = useTranslation()
+   const { t } = useTranslation()
 
    return (
-      <aside class={`sidebar ${isShowContact ? "active" : null}`} data-sidebar>
+      <aside className={`sidebar ${isShowContact ? "active" : null}`} data-sidebar>
 
-         <div class="sidebar-info">
+         <div className="sidebar-info">
 
-            <figure class="avatar-box">
-               <img src="/images/photo_2025-03-31_11-55-06.jpg" alt="Farzaneh Kazemi" class="avatart-image" />
+            <figure className="avatar-box">
+               <img src="/images/photo_2025-03-31_11-55-06.jpg" alt="Farzaneh Kazemi" className="avatart-image" />
             </figure>
 
-            <div class="info-content">
-               <h1 class="name" title="Farzane Kazemi">Farzaneh Kazemi</h1>
+            <div className="info-content">
+               <h1 className="name" title="Farzane Kazemi">Farzaneh Kazemi</h1>
 
-               <p class="title">
+               <p className="title">
                   {t('sidebar.job_title')}
                </p>
             </div>
 
-            <button class="info_more-btn data-sidebar-btn" onClick={() => setIsShowContact(!isShowContact)}>
+            <button className="info_more-btn data-sidebar-btn" onClick={() => setIsShowContact(!isShowContact)}>
                <span>
                   {
                      isShowContact
@@ -41,72 +40,56 @@ export default function Sidebar() {
 
          </div>
 
-         <div class="sidebar-info_more">
+         <div className="sidebar-info_more">
 
-            <div class="separator"></div>
+            <div className="separator"></div>
 
-            <ul class="contacts-list">
+            <ul className="contacts-list">
 
-               <li class="contact-item">
+               <li className="contact-item">
 
-                  <div class="icon-box">
+                  <div className="icon-box">
                      <TbMail />
                   </div>
 
-                  <div class="contact-info">
-                     <p class="contact-title">
+                  <div className="contact-info">
+                     <p className="contact-title">
                         {t('sidebar.email')}
                      </p>
 
-                     <a target="_blank" rel="noopener noreferrer" href="mailto:farzanekazemi8517@gmail.com" class="contact-link">farzanekazemi8517@gmail.com</a>
+                     <a target="_blank" rel="noopener noreferrer" href="mailto:farzanekazemi8517@gmail.com" className="contact-link">farzanekazemi8517@gmail.com</a>
                   </div>
 
                </li>
 
-               <li class="contact-item">
+               <li className="contact-item">
 
-                  <div class="icon-box">
+                  <div className="icon-box">
                      <BsPhoneFlip />
                   </div>
 
-                  <div class="contact-info">
-                     <p class="contact-title">
+                  <div className="contact-info">
+                     <p className="contact-title">
                         {t('sidebar.phone')}
                      </p>
 
-                     <a target="_blank" rel="noopener noreferrer" href="004915755991926" class="contact-link">+49 157 5599 1926</a>
+                     <a target="_blank" rel="noopener noreferrer" href="004915755991926" className="contact-link">+49 157 5599 1926</a>
                   </div>
 
                </li>
 
-               <li class="contact-item">
+               <li className="contact-item">
 
-                  <div class="icon-box">
+                  <div className="icon-box">
                      <BsCalendarWeek />
                   </div>
 
-                  <div class="contact-info">
-                     <p class="contact-title">
+                  <div className="contact-info">
+                     <p className="contact-title">
                         {t('sidebar.birth')}
                      </p>
 
-                     <time datetime="1982-06-23">April 07, 1996</time>
-                  </div>
-
-               </li>
-
-               <li class="contact-item">
-
-                  <div class="icon-box">
-                     <RiUserLocationFill />
-                  </div>
-
-                  <div class="contact-info">
-                     <p class="contact-title">
-                        {t('sidebar.location')}
-                     </p>
-
-                     <address>Iran</address>
+                     <time >April 07, 1996</time>
                   </div>
 
                </li>
@@ -116,36 +99,30 @@ export default function Sidebar() {
 
             {/* social Links */}
 
-            <div class="separator"></div>
+            <div className="separator"></div>
 
-            <ul class="social-list">
+            <ul className="social-list">
 
-               <li class="social-item">
-                  <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/farzane-kazemi" class="social-link">
-                     <SiLinkedin />
-                  </a>
-               </li>
-
-               <li class="social-item">
-                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Farzane2630" class="social-link">
+               <li className="social-item">
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Farzane2630" className="social-link">
                      <SiGithub />
                   </a>
                </li>
 
-               <li class="social-item">
-                  <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@farzanekazemi8517" class="social-link">
+               <li className="social-item">
+                  <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@farzanekazemi8517" className="social-link">
                      <SiMedium />
                   </a>
                </li>
 
-               {/* <li class="social-item">
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.xing.com/profile/Farzaneh_Kazemi3/web_profiles?expandNeffi=true" class="social-link">
+               {/* <li className="social-item">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.xing.com/profile/Farzaneh_Kazemi3/web_profiles?expandNeffi=true" className="social-link">
                      <SiXing />
                   </a>
                </li> */}
 
-               <li class="social-item">
-                  <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/19888516/farzane-kazemi" class="social-link">
+               <li className="social-item">
+                  <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/19888516/farzane-kazemi" className="social-link">
                      <SiStackoverflow />
                   </a>
                </li>

@@ -1,75 +1,72 @@
-import React, { useContext, useEffect, useState } from 'react'
+import { useContext, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { MdOutlineLanguage } from "react-icons/md"
 import { useTranslation } from 'react-i18next'
-import EnglishContext from '../context'
+import LanguageContext from '../context'
 
 export default function Navbar() {
   const locales = [
     { title: 'English', short: 'en' },
     { title: 'Deutsch', short: 'de' },
+    { title: "فارسی", short: "fa" },
+
   ]
 
-  const context = useContext(EnglishContext)
+  const context = useContext(LanguageContext)
 
   const { t, i18n } = useTranslation()
 
-  useEffect(() => {
-    i18n.changeLanguage(
-      context.isEn ? locales[0].short : locales[1].short
+  const handleChangeLanguage = () => {
+    const currentIndex = locales.findIndex(
+      (locale) => locale.short === context.language
     )
-  }, [context.isEn])
+
+    const nextIndex = (currentIndex + 1) % locales.length
+
+    context.setLanguage(locales[nextIndex].short)
+  }
+
+  const currentIndex = locales.findIndex(
+    (locale) => locale.short === context.language
+  )
+
+
+  useEffect(() => {
+    i18n.changeLanguage(context.language)
+  }, [context.language, i18n])
 
   return (
-    <nav class="navbar">
+    <nav className="navbar">
 
-      <ul class="navbar-list">
+      <ul className="navbar-list">
 
-        <li class="navbar-item">
-          <button class="navbar-link" data-nav-link>
-            <Link className="link" to='/'>
-              {t('pages.navbar.about')}
-            </Link>
-          </button>
+        <li className="navbar-item">
+          <Link className=" navbar-link" to='/'>
+            {t('pages.navbar.about')}
+          </Link>
         </li>
 
-        <li class="navbar-item">
-          <button class="navbar-link" data-nav-link>
-            <Link className="link" to="/resume">
-              {t('pages.navbar.resume')}
-
-            </Link>
-          </button>
+        <li className="navbar-item">
+          <Link className=" navbar-link" to="/resume">
+            {t('pages.navbar.resume')}
+          </Link>
         </li>
 
-        <li class="navbar-item">
-          <button class="navbar-link" data-nav-link>
-            <Link className="link" to="/portfolio">
-              {t('pages.navbar.portfolio')}
-            </Link>
-          </button>
+        <li className="navbar-item">
+          <Link className=" navbar-link" to="/portfolio">
+            {t('pages.navbar.portfolio')}
+          </Link>
         </li>
 
-        {/* <li class="navbar-item">
-          <button class="navbar-link" data-nav-link>
-            <Link className="link" to="/contact">
-              {t('pages.navbar.contact')}
-            </Link>
-          </button>
-        </li> */}
-
-
-        <li class="navbar-item">
-          <button class="navbar-link"
+        <li className="navbar-item">
+          <button className="navbar-link"
             data-nav-link style={{ display: "flex", alignItems: "center", columnGap: 4 }}
-            onClick={(e) => {
-              context.setIsEn(!context.isEn)
-            }}
+            onClick={handleChangeLanguage}
           >
             <MdOutlineLanguage fontSize="17px" />
-            {
-              context.isEn ? locales[1].title : locales[0].title
-            }
+
+            {locales[currentIndex].title}
+
           </button>
         </li>
 

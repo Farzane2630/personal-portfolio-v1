@@ -1,110 +1,179 @@
 {
   "pages": {
     "navbar": {
-      "about": "Über",
-      "resume": "Lebenslauf",
+      "about": "About",
+      "resume": "Resume",
       "portfolio": "Portfolio",
-      "contact": "Kontakt"
+      "contact": "Contact"
     },
     "header": {
-      "about": "Über Mich",
-      "resume": "Lebenslauf",
+      "about": "About Me",
+      "resume": "Resume",
       "portfolio": "Portfolio",
-      "contact": "Kontakt"
+      "contact": "Contact"
     },
     "about_me": {
       "desc": {
-        "p1": "Ich bin eine leidenschaftliche Frontend-Entwicklerin mit über 4 Jahren Berufserfahrung, spezialisiert auf React, TypeScript und die Entwicklung responsiver, benutzerfreundlicher Benutzeroberflächen. Ich liebe es, komplexe Probleme in einfache, schöne und intuitive Funktionen zu verwandeln, die das Web einfacher und angenehmer nutzbar machen.",
-        "p2": "Neben der Arbeit für Kunden entwickle, baue und betreibe ich derzeit My Panel App \u2014 eine live, mandantenfähige SaaS-Buchungsplattform \u2014 end-to-end: Frontend, Backend, Infrastruktur und Deployment. Mit anderen Worten: Ich entwerfe nicht nur Benutzeroberflächen, sondern liefere vollständige Produkte vom ersten Commit bis zur Produktion.",
-        "p3": "Außerdem studiere ich parallel zu meiner Arbeit Computertechnik (B.Sc.) und habe ein gutes Auge für Details \u2014 ich garantiere, dass das Ergebnis meiner Arbeit pixelgenau dem bereitgestellten UI-Design entspricht."
+        "p1": "I'm a software developer with professional experience building modern web applications and taking products from idea to production. I enjoy solving real-world problems and building reliable, user-friendly systems using React, TypeScript, Node.js, and modern cloud technologies.",
+        "p2": "I'm the founder and full-stack engineer behind My Panel App — a live multi-tenant SaaS appointment-booking platform that I designed, built, and currently operate end-to-end. From database design and API architecture to deployment, authentication, and infrastructure, I own every layer of the product.",
+        "p3": "What excites me most is product ownership. I love debugging production issues, making architectural decisions, learning new technologies when the problem demands it, and shipping software that real businesses can use every day."
       },
       "langs": {
-        "title": "Sprachen",
-        "lang1": "Englisch",
-        "lang2": "Deutsch",
-        "lang3": "Persisch",
-        "profi": "Muttersprache"
+        "title": "Languages",
+        "lang1": "English",
+        "lang2": "German",
+        "lang3": "Persian",
+        "profi": "Native Speaker"
       }
     },
     "resume": {
       "ex": {
-        "title": "Berufserfahrung",
-        "sub_title": "Hauptverantwortlichkeiten:",
+        "title": "Experience",
+        "sub_title": "Main Responsibilities:",
         "job_1": {
-          "position": "Frontend-Entwicklerin",
-          "date": "April 2022 – Februar 2025",
-          "details": "Raintech International Holding / Vollzeit / Vor Ort",
-          "desc": "Dieses Unternehmen ist auf Versicherungstechnologien (Insurtech) spezialisiert und bietet Content-Management-Systeme (CMS) für Versicherungsunternehmen und Agenturen an. In dieser Position arbeite ich mit meinem Team zusammen, um effiziente und benutzerfreundliche Admin-Panels zu erstellen, um unseren Kunden ein unglaubliches Erlebnis zu bieten und ihnen dabei zu helfen, ihre Aufgaben und Kunden so effektiv wie möglich zu verwalten. Zusätzlich entwickeln wir Services, die es Kunden ermöglichen, Versicherungen für ihre Besitztümer wie Autos, Handys, Laptops und andere elektronische Geräte unabhängig und direkt über unsere Anwendungen abzuschließen.",
+          "position": "Frontend Developer",
+          "date": "March 2023 – June 2025",
+          "details": "Raintech International Holding / Full-time / Hybrid",
+          "desc": "Developed production-grade SPA and PWA applications for Insurtech products using React and TypeScript while collaborating closely with backend engineers and product teams.",
           "res": {
-            "1": "- Frontend- und Backend-Entwicklung: Entwurf und Entwicklung von Single-Page-Anwendungen(SPA), die responsiv und benutzerfreundlich sind.",
-            "2": "- Wiederverwendbare Komponenten & Tests: Entwicklung komplexer Komponenten (z.B. Formulare, Paginierung, Diagramme) inklusive Unit- und Integrationstests zur Sicherstellung der Funktionalität./ Codequalität & Optimierung: Verantwortung für die Codebasis durch hohe Standards, Dokumentation, Anwendung von Best Practices und Performance-Optimierung durch Refactoring. Wartung und Refactoring von Legacy-Code.",
-            "3": "- Projekte: Entwicklung von Admin-Management-Dashboards für Versicherungsgesellschaften (Kfz-Versicherung) sowie einer Anwendung zur Überprüfung der technischen Gesundheit elektrischer Geräte wie Smartphones und Tablets. Zudem Erstellung einer Demo für diese Projekte."
+            "1": "- Built modern SPA and installable PWA applications with React and TypeScript.",
+            "2": "- Developed and maintained reusable component libraries used across multiple products to improve consistency and delivery speed.",
+            "3": "- Worked with backend developers and product managers to design, implement, and ship production features."
           }
         },
         "job_2": {
-          "position": "Gründerin & Full-Stack-Entwicklerin",
-          "date": "Oktober 2025 – heute",
-          "details": "My Panel App / Selbstständig / Remote",
-          "desc": "My Panel App ist eine live, mandantenfähige SaaS-Buchungsplattform, die ich von Grund auf für dienstleistungsbasierte Unternehmen wie Friseursalons und Kliniken entwickelt habe. Die Plattform ist vollständig zweisprachig (Persisch/Englisch) mit automatischer RTL/LTR-Umschaltung, und ich verantworte jede Ebene des Stacks \u2014 vom React/TypeScript-Frontend bis zum Node.js/Express/MongoDB-Backend und der Produktionsinfrastruktur.",
+          "position": "Founder & Full-Stack Engineer",
+          "date": "October 2025 – Present",
+          "details": "My Panel App / Self-Employed / Remote",
+          "desc": "Designed and built a live multi-tenant SaaS appointment-booking platform from scratch for service-based businesses. Responsible for architecture, development, infrastructure, deployment, and product decisions across the entire stack.",
           "res": {
-            "1": "- Full-Stack-Architektur: Aufbau der Plattform end-to-end mit React, TypeScript, Vite, Node.js, Express und MongoDB, einschließlich sicherer Authentifizierung über HttpOnly-Cookies und Axios-Interceptor-basierter Token-Erneuerung.",
-            "2": "- Zweisprachigkeit & Infrastruktur: Entwicklung einer zentralisierten Persisch/Englisch-Übersetzungsschicht mit sprachsensitiver Backend-Middleware, zweisprachiger PDF-Rechnungsstellung mit korrekter RTL-Typografie sowie einer vollständigen Deployment-Pipeline über Cloudflare, Vercel, Render, Supabase und Resend.",
-            "3": "- Produktverantwortung: Lösung realer Produktionsprobleme in den Bereichen Netzwerk, Datei-Uploads und dynamische Kalenderplanung (FullCalendar) bei gleichzeitigem Alleinbetrieb des Live-Produkts."
+            "1": "- Built the platform using Next.js, React, TypeScript, Node.js, Express.js, and MongoDB including data modeling, API design, and secure authentication.",
+            "2": "- Migrated authentication to an HttpOnly refresh cookie architecture and resolved route-protection race conditions and production authentication issues.",
+            "3": "- Implemented bilingual Persian/English support across the frontend and backend including RTL/LTR layouts, localized emails, PDF receipts, and language-aware middleware.",
+            "4": "- Designed database-level protections against double-booked appointments using MongoDB compound unique indexes and configurable business scheduling.",
+            "5": "- Deployed and operate the production stack across Vercel, Render, Cloudflare, MongoDB Atlas, and Supabase Storage.",
+            "6": "- Integrated SMS notifications, OTP verification, and automated appointment reminders."
           }
         }
       },
       "educ": {
-        "title": "Bildung",
+        "title": "Education",
         "edu_0": {
-          "location": "B.SC. COMPUTERTECHNIK \u2014 EYVANEKEY UNIVERSITY",
-          "date": "August 2025 – heute",
-          "desc": "Ich studiere derzeit Computertechnik (B.Sc.) an der Eyvanekey University, parallel zu meiner selbstständigen Tätigkeit als Full-Stack-Entwicklerin an My Panel App. Der Studienplan umfasst Datenstrukturen und Algorithmen, diskrete Mathematik, formale Sprachen, elektrische Schaltungen und Differentialgleichungen \u2014 das theoretische Fundament hinter den Produktionssystemen, die ich täglich baue."
+          "location": "B.SC. COMPUTER ENGINEERING — EYVANEKEY UNIVERSITY",
+          "date": "September 2025 – Present",
+          "desc": "Currently pursuing my Bachelor's degree in Computer Engineering while building and operating a production SaaS product."
         },
         "edu_1": {
-          "location": "ONLINE BOOTCAMP - WEB ENTWICKLUNG",
-          "date": "2020 – 2022",
-          "desc": "Dieses Online-Bootcamp war ein Teilzeitprogramm, das ich neben meiner Vollzeitstelle als SEO-Spezialist absolviert habe. Während dieses Kurses habe ich Webtechnologien und die Entwicklung von Webanwendungen erlernt. Ich habe Kenntnisse in HTML, CSS und JavaScript sowie in React und TypeScript erworben. Zudem habe ich gelernt, wie man Codebasen mit GitHub verwaltet und pflegt – eine der wichtigsten Aspekte der Entwicklung, insbesondere in einem Team. Durch diesen Kurs habe ich außerdem grundlegende Kenntnisse in der Backend-Entwicklung erworben, darunter Node.js, MongoDB, Mongoose, MySQL und Express.js. Ich habe beeindruckende Benutzeroberflächen erstellt und meinen Lernfortschritt durch kleine Projekte und praktische Erfahrungen erfolgreich gesteigert."
+          "location": "ONLINE BOOTCAMP - WEB DEVELOPMENT",
+          "date": "2022 – 2023",
+          "desc": "Completed an intensive web development bootcamp focused on modern frontend and backend technologies including JavaScript, React, TypeScript, Node.js, Express.js, MongoDB, MySQL, and collaborative development practices using Git and GitHub."
         },
         "edu_2": {
-          "location": "HIGH SCHOOL",
+          "location": "HIGHSCHOOL",
           "date": "2010 – 2014",
-          "desc": "Ich habe 4 erfolgreiche Jahre auf der High School verbracht und mit hervorragenden Noten abgeschlossen. Tatsächlich handelt es sich bei der Schule, die ich besucht habe, um keine reguläre Schule. Die Schüler müssen eine Aufnahmeprüfung bestehen, um die Erlaubnis zum Studium an dieser High School zu erhalten."
+          "desc": "Graduated from a selective high school that required passing a competitive entrance examination."
         }
       },
       "tech_skills": {
-        "title": "Technische Fähigkeiten"
+        "title": "Core Technologies"
       }
     },
     "contact": {
-      "title": "Kontaktformular",
-      "input_1": "Vollständiger Name",
-      "input_2": "E-Mail-Adresse",
-      "txt_area": "Ihre Nachricht",
-      "btn": "Nachricht senden"
+      "title": "Contact Form",
+      "input_1": "Full name",
+      "input_2": "Email address",
+      "txt_area": "Your Message",
+      "btn": "Send Message"
     },
     "portfolio": {
-      "project1": {
-        "header": "für eine Versicherungsgesellschaft"
-      },
       "labels": {
-        "details_title": "Projektdetails:",
-        "tech_title": "#Haupttechnologien:"
+        "details_title": "Project Details:",
+        "features_title": "Key Features:",
+        "tech_title": "#Main Tech Stack:"
       },
-      "saas": {
-        "title": "React / Node \u2014 My Panel App \u2014 Mandantenfähige SaaS-Buchungsplattform",
-        "description": "My Panel App ist eine live, mandantenfähige SaaS-Buchungsplattform, die ich für dienstleistungsbasierte Unternehmen wie Friseursalons und Kliniken entworfen, gebaut und betreibe \u2014 end-to-end. Die Plattform ist vollständig zweisprachig (Persisch/Englisch) mit automatischer RTL/LTR-Umschaltung, und ich verantworte jede Ebene des Stacks \u2014 Frontend, Backend, Infrastruktur und Deployment.\n#Funktionen\n- Mandantenfähiges Buchungssystem mit administrierbaren Business-Panels\n- Zweisprachige Benutzeroberfläche (Persisch/Englisch) mit automatischer RTL/LTR-Umschaltung\n- Sichere Authentifizierung mit HttpOnly-Cookies und automatischer Token-Erneuerung\n- Dynamischer Terminkalender (FullCalendar) mit Echtzeit-Verfügbarkeit\n- Zweisprachige PDF-Rechnungsstellung mit korrekter persischer RTL-Typografie\n- Eigene Domain, DNS und eine vollständige Produktions-Deployment-Pipeline",
-        "tech": "- React, TypeScript, Vite, Node.js, Express.js, MongoDB, Tailwind CSS, Axios, Cloudflare, Vercel, Render, Supabase, Resend"
+      "projects": {
+        "saas": {
+          "title": "My Panel App - Multi-Tenant SaaS Booking Platform",
+          "link": "https://mypanelapp.ir",
+          "image": "/images/mypanelapp.jpeg",
+          "alt": "My Panel App",
+          "description": "A live production-ready multi-tenant SaaS appointment booking platform built from scratch for service-based businesses.",
+          "features": [
+            "Online appointment booking system",
+            "Multi-tenant architecture",
+            "Persian & English support with RTL/LTR",
+            "Database-level protection against double bookings",
+            "SMS notifications and OTP verification",
+            "PWA support",
+            "Custom business scheduling",
+            "Cloud deployment infrastructure"
+          ],
+          "tech": [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Tailwind CSS",
+            "Cloudflare",
+            "Vercel",
+            "Render",
+            "Supabase"
+          ]
+        },
+        "travelhub": {
+          "title": "TravelHub - MEAN Stack Travel Blog",
+          "link": "https://travelhub-liart.vercel.app/",
+          "image": "/images/travelhub.jpg",
+          "alt": "TravelHub",
+          "description": "A full-stack travel blogging platform built with Angular and Node.js.",
+          "features": [
+            "Authentication system",
+            "Email verification",
+            "Article publishing",
+            "Comments and reactions",
+            "Profile management",
+            "Responsive design",
+            "Dockerized application"
+          ],
+          "tech": [
+            "Angular",
+            "TypeScript",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Docker",
+            "Tailwind CSS"
+          ]
+        },
+        "cafe": {
+          "title": "Cafe Website",
+          "link": "https://cafe-website-pi.vercel.app/",
+          "image": "/images/cafe-next-js.jpg",
+          "alt": "Cafe Website",
+          "description": "A modern and responsive cafe website built with Next.js.",
+          "features": [
+            "Table reservation",
+            "Drink search functionality",
+            "Newsletter registration",
+            "Responsive design",
+            "Smooth animations"
+          ],
+          "tech": [
+            "Next.js"
+          ]
+        }
       }
     }
   },
-
   "sidebar": {
-    "job_title": "Frontend-Entwickler",
-    "email": "E-Mail",
-    "phone": "Telefon",
-    "location": "Ort",
-    "birth": "Geburtstag",
-    "show_contact": "Kontakt anzeigen",
-    "hide_contact": "Kontakt ausblenden"
+    "job_title": "Software Developer",
+    "email": "Email",
+    "phone": "Whatsapp",
+    "location": "Location",
+    "birth": "Birthday",
+    "show_contact": "Show Contact",
+    "hide_contact": "Hide Contact"
   }
 }
