@@ -1,5 +1,5 @@
 import { useContext, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { MdOutlineLanguage } from "react-icons/md"
 import { useTranslation } from 'react-i18next'
 import LanguageContext from '../context'
@@ -30,6 +30,8 @@ export default function Navbar() {
     (locale) => locale.short === context.language
   )
 
+  const navLinkClass = ({ isActive }) => `navbar-link${isActive ? " active" : ""}`
+
 
   useEffect(() => {
     i18n.changeLanguage(context.language)
@@ -41,21 +43,27 @@ export default function Navbar() {
       <ul className="navbar-list">
 
         <li className="navbar-item">
-          <Link className=" navbar-link" to='/'>
+          <NavLink className={navLinkClass} to='/' end>
             {t('pages.navbar.about')}
-          </Link>
+          </NavLink>
         </li>
 
         <li className="navbar-item">
-          <Link className=" navbar-link" to="/resume">
+          <NavLink className={navLinkClass} to="/resume">
             {t('pages.navbar.resume')}
-          </Link>
+          </NavLink>
         </li>
 
         <li className="navbar-item">
-          <Link className=" navbar-link" to="/portfolio">
+          <NavLink className={navLinkClass} to="/portfolio">
             {t('pages.navbar.portfolio')}
-          </Link>
+          </NavLink>
+        </li>
+
+        <li className="navbar-item">
+          <NavLink className={navLinkClass} to="/contact">
+            {t('pages.navbar.contact')}
+          </NavLink>
         </li>
 
         <li className="navbar-item">

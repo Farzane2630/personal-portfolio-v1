@@ -3,6 +3,15 @@ import { useTranslation } from 'react-i18next'
 
 export default function Contact() {
   const { t } = useTranslation()
+
+  const handleSubmit = (event) => {
+    event.preventDefault()
+    const formData = new FormData(event.currentTarget)
+    const subject = encodeURIComponent(`Portfolio enquiry from ${formData.get('fullname')}`)
+    const body = encodeURIComponent(`Name: ${formData.get('fullname')}\nEmail: ${formData.get('email')}\n\n${formData.get('message')}`)
+    window.location.href = `mailto:farzanekazemi8517@gmail.com?subject=${subject}&body=${body}`
+  }
+
   return (
     <article className="contact active" data-page="contact">
 
@@ -19,7 +28,8 @@ export default function Contact() {
           {t('pages.contact.title')}
         </h3>
 
-        <form action="#" className="form" data-form>
+        <p className="contact-intro">Tell me about the product or role you’re building. Your message opens in your email app.</p>
+        <form className="form" onSubmit={handleSubmit}>
 
           <div className="input-wrapper">
             <input type="text" name="fullname" className="form-input" placeholder={t('pages.contact.input_1')} required data-form-input />
@@ -29,8 +39,8 @@ export default function Contact() {
 
           <textarea name="message" className="form-input" placeholder={t('pages.contact.txt_area')} required data-form-input></textarea>
 
-          <button className="form-btn" type="submit" disabled data-form-btn>
-            <ion-icon name="paper-plane"></ion-icon>
+          <button className="form-btn" type="submit">
+            <span aria-hidden="true">✉</span>
             <span>
               {t('pages.contact.btn')}
             </span>
@@ -43,4 +53,3 @@ export default function Contact() {
     </article>
   )
 }
-

@@ -20,14 +20,23 @@ export default function Portfolio() {
       </header>
 
       <section className="portfolio">
+        <section className="case-study">
+          <p className="eyebrow">{t('pages.portfolio.caseStudy.eyebrow')}</p>
+          <h3 className="h3">{t('pages.portfolio.caseStudy.title')}</h3>
+          <p>{t('pages.portfolio.caseStudy.description')}</p>
+          <div className="case-study-grid">
+            <div><strong>{t('pages.portfolio.caseStudy.grid.ownership.label')}</strong><span>{t('pages.portfolio.caseStudy.grid.ownership.value')}</span></div>
+            <div><strong>{t('pages.portfolio.caseStudy.grid.reliability.label')}</strong><span>{t('pages.portfolio.caseStudy.grid.reliability.value')}</span></div>
+            <div><strong>{t('pages.portfolio.caseStudy.grid.reach.label')}</strong><span>{t('pages.portfolio.caseStudy.grid.reach.value')}</span></div>
+          </div>
+          <a className="button button-primary" href="https://mypanelapp.ir" target="_blank" rel="noopener noreferrer">{t('pages.portfolio.caseStudy.cta')}</a>
+        </section>
+
+        <h3 className="h3 projects-heading">{t("pages.portfolio.selectedProjects")}</h3>
         {Object.values(projects).map((project) => (
           <ul key={project.title} className="skills-list content-card">
             <li className="skills-item project_wrapper">
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <div>
                 <div className="title-wrapper">
                   <h5 className="h5">{project.title}</h5>
                 </div>
@@ -71,7 +80,10 @@ export default function Portfolio() {
                     ))}
                   </ul>
                 </div>
-              </a>
+                <a className="project-link" href={project.link} target="_blank" rel="noopener noreferrer">
+                  Visit live project <span aria-hidden="true">↗</span>
+                </a>
+              </div>
             </li>
           </ul>
 

@@ -91,11 +91,32 @@
         "features_title": "Key Features:",
         "tech_title": "#Main Tech Stack:"
       },
+      "caseStudy": {
+        "eyebrow": "Featured case study",
+        "title": "My Panel App: appointment booking SaaS",
+        "description": "I designed, built, deployed, and operate a multi-tenant booking platform for service businesses—from data modeling and authentication to localized customer communication.",
+        "grid": {
+          "ownership": {
+            "label": "Ownership",
+            "value": "Product, frontend, backend & infrastructure"
+          },
+          "reliability": {
+            "label": "Reliability",
+            "value": "Database protections against double bookings"
+          },
+          "reach": {
+            "label": "Reach",
+            "value": "Persian/English UI, emails, receipts & RTL"
+          }
+        },
+        "cta": "Open My Panel App"
+      },
+      "selectedProjects": "Selected Projects",
       "projects": {
         "saas": {
           "title": "My Panel App - Multi-Tenant SaaS Booking Platform",
           "link": "https://mypanelapp.ir",
-          "image": "/images/mypanelapp.jpeg",
+          "image": "/images/og-image.png",
           "alt": "My Panel App",
           "description": "A live production-ready multi-tenant SaaS appointment booking platform built from scratch for service-based businesses.",
           "features": [

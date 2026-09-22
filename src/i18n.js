@@ -8,11 +8,13 @@ i18n
   .use(I18nextBrowserLanguageDetector)
   .use(initReactI18next)
   .init({
-    debug: true,
+    debug: false,
     fallbackLng: "en", // Change 'fallbackLang' to 'fallbackLng'
     returnEmptyString: false,
+    detection: {
+      order: ["localStorage", "navigator"],
+      caches: ["localStorage"],
+    },
   });
-
-  i18n.changeLanguage('en')
 
 export default i18n;

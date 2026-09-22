@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { TbMail } from "react-icons/tb"
-import { BsPhoneFlip, BsCalendarWeek } from "react-icons/bs"
+import { BsPhoneFlip } from "react-icons/bs"
 import { SiGithub, SiStackoverflow, SiMedium } from "react-icons/si"
 import { useTranslation } from 'react-i18next'
 
@@ -15,7 +15,7 @@ export default function Sidebar() {
          <div className="sidebar-info">
 
             <figure className="avatar-box">
-               <img src="/images/photo_2025-03-31_11-55-06.jpg" alt="Farzaneh Kazemi" className="avatart-image" />
+               <img src="/images/avatar.jpg" alt="Farzaneh Kazemi" className="avatart-image" />
             </figure>
 
             <div className="info-content">
@@ -26,7 +26,7 @@ export default function Sidebar() {
                </p>
             </div>
 
-            <button className="info_more-btn data-sidebar-btn" onClick={() => setIsShowContact(!isShowContact)}>
+            <button type="button" className="info_more-btn data-sidebar-btn" onClick={() => setIsShowContact(!isShowContact)}>
                <span>
                   {
                      isShowContact
@@ -73,23 +73,7 @@ export default function Sidebar() {
                         {t('sidebar.phone')}
                      </p>
 
-                     <a target="_blank" rel="noopener noreferrer" href="004915755991926" className="contact-link">+49 157 5599 1926</a>
-                  </div>
-
-               </li>
-
-               <li className="contact-item">
-
-                  <div className="icon-box">
-                     <BsCalendarWeek />
-                  </div>
-
-                  <div className="contact-info">
-                     <p className="contact-title">
-                        {t('sidebar.birth')}
-                     </p>
-
-                     <time >April 07, 1996</time>
+                     <a href="tel:+4915755991926" className="contact-link">+49 157 5599 1926</a>
                   </div>
 
                </li>

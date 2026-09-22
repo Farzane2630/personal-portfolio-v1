@@ -91,11 +91,32 @@
         "features_title": "Hauptfunktionen:",
         "tech_title": "#Technologien:"
       },
+      "selectedProjects": "Projecten",
+      "caseStudy": {
+        "eyebrow": "Ausgewählte Fallstudie",
+        "title": "My Panel App: SaaS für Terminbuchungen",
+        "description": "Ich habe eine mandantenfähige Buchungsplattform für Dienstleistungsunternehmen entworfen, entwickelt, bereitgestellt und betreibe sie – von der Datenmodellierung und Authentifizierung bis zur lokalisierten Kundenkommunikation.",
+        "grid": {
+          "ownership": {
+            "label": "Verantwortung",
+            "value": "Produkt, Frontend, Backend & Infrastruktur"
+          },
+          "reliability": {
+            "label": "Zuverlässigkeit",
+            "value": "Datenbankschutz gegen Doppelbuchungen"
+          },
+          "reach": {
+            "label": "Reichweite",
+            "value": "Persische/englische Oberfläche, E-Mails, Belege & RTL"
+          }
+        },
+        "cta": "My Panel App öffnen"
+      },
       "projects": {
         "saas": {
           "title": "My Panel App - Multi-Tenant SaaS Terminbuchungsplattform",
           "link": "https://mypanelapp.ir",
-          "image": "/images/mypanelapp.jpeg",
+          "image": "/images/og-image.png",
           "alt": "My Panel App",
           "description": "Eine produktive Multi-Tenant-SaaS-Plattform für Online-Terminbuchungen.",
           "features": [

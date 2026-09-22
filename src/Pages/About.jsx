@@ -2,6 +2,7 @@ import Navbar from '../Components/Navbar'
 import { TbLanguage } from "react-icons/tb"
 import { Suspense } from "react"
 import { useTranslation } from "react-i18next"
+import { Link } from "react-router-dom"
 
 function Index() {
 
@@ -28,6 +29,21 @@ function Index() {
         <p>
           {t('pages.about_me.desc.p3')}
         </p>
+      </section>
+
+      <section className="hero-actions" aria-label="Portfolio actions">
+        <a className="button button-primary" href="https://mypanelapp.ir" target="_blank" rel="noopener noreferrer">
+          View live SaaS product
+        </a>
+        <Link className="button button-secondary" to="/contact">
+          Let’s work together
+        </Link>
+      </section>
+
+      <section className="proof-points" aria-label="Professional highlights">
+        <div><strong>Production SaaS</strong><span>Founder & full-stack engineer</span></div>
+        <div><strong>React + TypeScript</strong><span>Modern web applications and PWAs</span></div>
+        <div><strong>EN / DE / FA</strong><span>Multilingual product experience</span></div>
       </section>
 
       <section className="skill">
