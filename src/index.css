@@ -441,6 +441,11 @@ main {
   font-size: var(--fs-7);
 }
 
+a.contact-link.whatsapp {
+  display: flex;
+  justify-content: flex-end !important;
+  text-align: start !important;
+}
 .contact-info address {
   font-style: normal;
 }

@@ -1,13 +1,23 @@
-import { useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { TbMail } from "react-icons/tb"
 import { BsPhoneFlip } from "react-icons/bs"
-import { SiGithub, SiStackoverflow, SiMedium } from "react-icons/si"
+import { SiGithub, SiStackoverflow, SiMedium, SiLinkedin } from "react-icons/si"
 import { useTranslation } from 'react-i18next'
+import LanguageContext from '../context'
 
 export default function Sidebar() {
 
    const [isShowContact, setIsShowContact] = useState(false)
-   const { t } = useTranslation()
+
+   const context = useContext(LanguageContext)
+
+   const { t, i18n } = useTranslation()
+
+
+   useEffect(() => {
+      i18n.changeLanguage(context.language)
+   }, [context.language, i18n])
+
 
    return (
       <aside className={`sidebar ${isShowContact ? "active" : null}`} data-sidebar>
@@ -73,7 +83,7 @@ export default function Sidebar() {
                         {t('sidebar.phone')}
                      </p>
 
-                     <a href="tel:+4915755991926" className="contact-link">+49 157 5599 1926</a>
+                     <a href="tel:+4915755991926" className={`${context.language == "fa" ? "contact-link whatsapp" : "contact-link"}`} dir='ltr'>+49 157 5599 1926</a>
                   </div>
 
                </li>
@@ -99,11 +109,11 @@ export default function Sidebar() {
                   </a>
                </li>
 
-               {/* <li className="social-item">
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.xing.com/profile/Farzaneh_Kazemi3/web_profiles?expandNeffi=true" className="social-link">
-                     <SiXing />
+               <li className="social-item">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/farzaneh-kazemi-eng" className="social-link">
+                     <SiLinkedin />
                   </a>
-               </li> */}
+               </li>
 
                <li className="social-item">
                   <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/19888516/farzane-kazemi" className="social-link">
