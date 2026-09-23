@@ -9,97 +9,119 @@
     "header": {
       "about": "Über mich",
       "resume": "Lebenslauf",
-      "portfolio": "Portfolio",
-      "contact": "Kontakt"
+      "portfolio": "Portfolio & Projekte",
+      "contact": "Kontakt aufnehmen"
     },
     "about_me": {
       "desc": {
-        "p1": "Ich bin Softwareentwicklerin mit Berufserfahrung in der Entwicklung moderner Webanwendungen und der Umsetzung von Produkten von der Idee bis zur produktiven Anwendung. Ich entwickle gerne zuverlässige und benutzerfreundliche Softwarelösungen mit React, TypeScript, Node.js und modernen Cloud-Technologien.",
-        "p2": "Ich bin Gründerin und Full-Stack-Entwicklerin von My Panel App – einer produktiven Multi-Tenant-SaaS-Plattform zur Online-Terminbuchung, die ich vollständig selbst entworfen, entwickelt und betreibe.",
-        "p3": "Besonders begeistert mich die Verantwortung für ein Produkt von Anfang bis Ende. Ich löse gerne komplexe Produktionsprobleme, treffe technische Architekturentscheidungen und lerne neue Technologien immer dann, wenn das Produkt sie benötigt."
+        "p1": "Ich bin Full-Stack-Softwareentwicklerin mit professioneller Erfahrung in der Entwicklung moderner, skalierbarer Webanwendungen und der Begleitung von Produkten von der ersten Idee bis zur produktiven Bereitstellung. Ich löse reale Probleme und baue verlässliche, benutzerfreundliche Systeme mit React, TypeScript, Node.js und modernen Cloud-Technologien.",
+        "p2": "Ich bin Gründerin und Full-Stack-Entwicklerin von My Panel App – einer mandantenfähigen SaaS-Plattform zur Online-Terminbuchung, die ich von Grund auf entworfen, entwickelt habe und eigenständig betreibe. Vom Datenbankschema und der API-Architektur bis hin zu Deployment, Authentifizierung und Cloud-Infrastruktur verantworte ich jede Schicht des Produkts.",
+        "p3": "Was mich am meisten begeistert, ist ganzheitliche Produktverantwortung: das Lösen kniffliger Produktionsprobleme, fundierte Architekturentscheidungen, das gezielte Erlernen neuer Technologien und die Bereitstellung von Software, die echten Unternehmen Tag für Tag hilft."
+      },
+      "actions": {
+        "view_saas": "Live SaaS-Produkt ansehen",
+        "contact_me": "Lass uns zusammenarbeiten"
+      },
+      "highlights": {
+        "saas": {
+          "label": "Produktives SaaS",
+          "value": "Gründerin & Full-Stack-Entwicklerin"
+        },
+        "tech": {
+          "label": "React + TypeScript",
+          "value": "Moderne Webanwendungen & PWAs"
+        },
+        "multilingual": {
+          "label": "EN / DE / FA",
+          "value": "Mehrsprachige Produkterfahrung"
+        }
       },
       "langs": {
         "title": "Sprachen",
         "lang1": "Englisch",
         "lang2": "Deutsch",
         "lang3": "Persisch",
+        "c1": "Fließend (C1)",
+        "b2": "Gute Kenntnisse (B2)",
         "profi": "Muttersprache"
       }
     },
     "resume": {
       "ex": {
         "title": "Berufserfahrung",
-        "sub_title": "Hauptaufgaben:",
+        "sub_title": "Hauptaufgaben & Erfolge:",
         "job_1": {
           "position": "Frontend-Entwicklerin",
           "date": "März 2023 – Juni 2025",
-          "details": "Raintech International Holding / Vollzeit / Hybrid",
-          "desc": "Entwicklung produktiver SPA- und PWA-Anwendungen im Bereich InsurTech mit React und TypeScript in enger Zusammenarbeit mit Backend-Entwicklern und Produktteams.",
+          "details": "Raintech International Holding | Vollzeit | Hybrid",
+          "desc": "Entwicklung produktionsreifer Single Page Applications (SPA) und Progressive Web Apps (PWA) für InsurTech-Produkte mit React und TypeScript in enger Zusammenarbeit mit Backend- und Produkt-Teams.",
           "res": {
-            "1": "- Entwicklung moderner SPA- und installierbarer PWA-Anwendungen mit React und TypeScript.",
-            "2": "- Entwicklung und Wartung wiederverwendbarer UI-Komponentenbibliotheken für mehrere Produkte.",
-            "3": "- Zusammenarbeit mit Backend-Entwicklern und Produktmanagern bei der Planung und Umsetzung neuer Funktionen."
+            "1": "Entwicklung performanter SPA- und installierbarer PWA-Webanwendungen mit React und TypeScript.",
+            "2": "Aufbau und Pflege wiederverwendbarer UI-Komponentenbibliotheken für konsistentes Design und schnellere Feature-Bereitstellung.",
+            "3": "Enge Abstimmung mit Backend-Entwicklern und Produktmanagern zur Anforderungsanalyse, API-Integration und Veröffentlichung neuer Funktionen."
           }
         },
         "job_2": {
           "position": "Gründerin & Full-Stack-Entwicklerin",
           "date": "Oktober 2025 – Heute",
-          "details": "My Panel App / Selbstständig / Remote",
-          "desc": "Entwicklung und Betrieb einer Multi-Tenant-SaaS-Plattform zur Online-Terminbuchung für Dienstleistungsunternehmen. Verantwortlich für Architektur, Entwicklung, Infrastruktur und Deployment.",
+          "details": "My Panel App | Gründerin | Remote",
+          "desc": "Konzeption und Entwicklung einer mandantenfähigen SaaS-Terminbuchungsplattform für Dienstleistungsunternehmen von Grund auf. Verantwortung für Architektur, Full-Stack-Entwicklung, Cloud-Infrastruktur und Produktstrategie.",
           "res": {
-            "1": "- Entwicklung der Plattform mit Next.js, React, TypeScript, Node.js, Express.js und MongoDB.",
-            "2": "- Einführung einer sicheren Authentifizierung mittels HttpOnly-Refresh-Cookies und Behebung produktiver Authentifizierungsprobleme.",
-            "3": "- Umsetzung einer vollständigen Zwei-Sprachen-Unterstützung (Persisch/Englisch) inklusive RTL/LTR-Layouts und lokalisierter Dokumente.",
-            "4": "- Vermeidung von Doppelbuchungen durch MongoDB Compound Unique Indexes und flexible Terminverwaltung.",
-            "5": "- Deployment und Betrieb der Infrastruktur mit Vercel, Render, Cloudflare, MongoDB Atlas und Supabase.",
-            "6": "- Integration von SMS-Benachrichtigungen, OTP-Verifizierung und automatisierten Terminerinnerungen."
+            "1": "Entwicklung der gesamten Plattform mit Next.js, React, TypeScript, Node.js, Express.js und MongoDB inklusive Datenmodellierung und sicherer REST-APIs.",
+            "2": "Einführung einer sicheren Authentifizierung mittels HttpOnly-Refresh-Cookies und Behebung produktiver Race-Conditions im Route-Schutz.",
+            "3": "Vollständige zweisprachige Unterstützung (Persisch/Englisch) über Frontend und Backend hinweg, inklusive RTL/LTR-Layouts, transaktionaler E-Mails, PDF-Quittungen und spracherkennender Middleware.",
+            "4": "Verhinderung von Doppelbuchungen auf Datenbankebene durch MongoDB Compound Unique Indexes und flexible Unternehmenszeitpläne.",
+            "5": "Deployment und Betrieb der Infrastruktur über Vercel, Render, Cloudflare, MongoDB Atlas und Supabase Storage.",
+            "6": "Integration von SMS-Benachrichtigungen, OTP-Verifizierung und automatisierten Terminerinnerungen."
           }
         }
       },
       "educ": {
         "title": "Ausbildung",
         "edu_0": {
-          "location": "B.SC. COMPUTER ENGINEERING – EYVANEKEY UNIVERSITY",
+          "location": "B.Sc. Computer Engineering — Eyvanekey University",
           "date": "September 2025 – Heute",
           "desc": "Derzeit absolviere ich meinen Bachelorabschluss in Computer Engineering und betreibe parallel mein eigenes SaaS-Produkt."
         },
         "edu_1": {
-          "location": "ONLINE BOOTCAMP – WEBENTWICKLUNG",
+          "location": "Full-Stack Webentwicklungs-Bootcamp",
           "date": "2022 – 2023",
-          "desc": "Intensives Webentwicklungs-Bootcamp mit Schwerpunkt auf modernen Frontend- und Backend-Technologien wie React, TypeScript, Node.js und MongoDB."
+          "desc": "Intensives, projektbasiertes Webentwicklungs-Bootcamp mit Schwerpunkt auf JavaScript, React, TypeScript, Node.js, Express.js, MongoDB, MySQL und agilen Team-Workflows mit Git und GitHub."
         },
         "edu_2": {
-          "location": "OBERSCHULE",
+          "location": "Abitur an einer Spezialschule",
           "date": "2010 – 2014",
-          "desc": "Abschluss an einer selektiven Schule mit Aufnahmeprüfung."
+          "desc": "Erfolgreicher Abschluss an einer selektiven Schule nach Bestehen anspruchsvoller Aufnahmeprüfungen."
         }
       },
       "tech_skills": {
-        "title": "Technologien"
+        "title": "Kerntechnologien & Fähigkeiten"
       }
     },
     "contact": {
       "title": "Kontaktformular",
+      "intro": "Erzählen Sie mir von Ihrem Projekt oder der Stelle, die Sie besetzen möchten. Ihre Nachricht wird direkt in Ihrem E-Mail-Programm geöffnet.",
       "input_1": "Vollständiger Name",
       "input_2": "E-Mail-Adresse",
-      "txt_area": "Ihre Nachricht",
+      "txt_area": "Ihre Nachricht...",
       "btn": "Nachricht senden"
     },
     "portfolio": {
       "labels": {
         "details_title": "Projektdetails:",
         "features_title": "Hauptfunktionen:",
-        "tech_title": "#Technologien:"
+        "tech_title": "Technologien:",
+        "visit_project": "Live-Projekt ansehen"
       },
-      "selectedProjects": "Projecten",
+      "selectedProjects": "Ausgewählte Projekte",
       "caseStudy": {
         "eyebrow": "Ausgewählte Fallstudie",
-        "title": "My Panel App: SaaS für Terminbuchungen",
+        "title": "My Panel App: Mandantenfähige Buchungs-SaaS",
         "description": "Ich habe eine mandantenfähige Buchungsplattform für Dienstleistungsunternehmen entworfen, entwickelt, bereitgestellt und betreibe sie – von der Datenmodellierung und Authentifizierung bis zur lokalisierten Kundenkommunikation.",
         "grid": {
           "ownership": {
             "label": "Verantwortung",
-            "value": "Produkt, Frontend, Backend & Infrastruktur"
+            "value": "Produkt, Frontend, Backend & Cloud-Infrastruktur"
           },
           "reliability": {
             "label": "Zuverlässigkeit",
@@ -107,27 +129,27 @@
           },
           "reach": {
             "label": "Reichweite",
-            "value": "Persische/englische Oberfläche, E-Mails, Belege & RTL"
+            "value": "Persisch & Englisch, transaktionale E-Mails, Belege & RTL"
           }
         },
         "cta": "My Panel App öffnen"
       },
       "projects": {
         "saas": {
-          "title": "My Panel App - Multi-Tenant SaaS Terminbuchungsplattform",
+          "title": "My Panel App — Multi-Tenant SaaS Terminbuchungsplattform",
           "link": "https://mypanelapp.ir",
           "image": "/images/og-image.png",
           "alt": "My Panel App",
-          "description": "Eine produktive Multi-Tenant-SaaS-Plattform für Online-Terminbuchungen.",
+          "description": "Eine produktive Multi-Tenant-SaaS-Plattform für Online-Terminbuchungen, entwickelt für serviceorientierte Unternehmen.",
           "features": [
-            "Online-Terminbuchung",
-            "Multi-Tenant-Architektur",
-            "Persisch- und Englisch-Unterstützung",
-            "Schutz vor Doppelbuchungen",
-            "SMS-Benachrichtigungen",
-            "PWA-Unterstützung",
-            "Flexible Terminverwaltung",
-            "Cloud-Deployment"
+            "Online-Terminbuchungssystem mit flexibler Zeitplanung",
+            "Multi-Tenant-Architektur mit getrennten Unternehmensbereichen",
+            "Vollständige Persisch- und Englisch-Unterstützung mit RTL/LTR",
+            "Zuverlässiger Datenbankschutz vor Doppelbuchungen",
+            "SMS-Benachrichtigungen und Telefon-OTP-Verifizierung",
+            "PWA-Unterstützung für mobile und Desktop-Nutzung",
+            "Individuelle Arbeitszeiten und anpassbare Servicekataloge",
+            "Hochverfügbare Cloud-Deployment-Infrastruktur"
           ],
           "tech": [
             "Next.js",
@@ -135,53 +157,65 @@
             "TypeScript",
             "Node.js",
             "Express.js",
-            "MongoDB"
+            "MongoDB",
+            "Tailwind CSS",
+            "Cloudflare",
+            "Vercel",
+            "Render",
+            "Supabase"
           ]
         },
         "travelhub": {
-          "title": "TravelHub - MEAN Stack Reiseblog",
+          "title": "TravelHub — Full-Stack Reiseblog-Plattform",
           "link": "https://travelhub-liart.vercel.app/",
           "image": "/images/travelhub.jpg",
           "alt": "TravelHub",
-          "description": "Eine Full-Stack-Reiseblog-Plattform mit Angular und Node.js.",
+          "description": "Eine Full-Stack-Reiseblog- und Community-Plattform, entwickelt mit Angular und Node.js.",
           "features": [
-            "Authentifizierung",
-            "E-Mail-Verifizierung",
-            "Artikelverwaltung",
-            "Kommentare und Reaktionen",
-            "Profilverwaltung",
-            "Responsive Design",
-            "Docker-Unterstützung"
+            "Sichere Authentifizierung und Benutzerverwaltung",
+            "Automatische E-Mail-Verifizierung",
+            "Erstellung und Veröffentlichung von Reiseberichten",
+            "Interaktive Kommentare und Reaktionen",
+            "Benutzerprofilverwaltung",
+            "Vollständig responsives Design für alle Bildschirmgrößen",
+            "Containerisierte Bereitstellung mit Docker"
           ],
           "tech": [
             "Angular",
+            "TypeScript",
             "Node.js",
+            "Express.js",
             "MongoDB",
-            "Docker"
+            "Docker",
+            "Tailwind CSS"
           ]
         },
         "cafe": {
-          "title": "Cafe Website",
+          "title": "Café-Website & Tischreservierung",
           "link": "https://cafe-website-pi.vercel.app/",
           "image": "/images/cafe-next-js.jpg",
-          "alt": "Cafe Website",
-          "description": "Eine moderne und responsive Website für ein Café.",
+          "alt": "Café Website",
+          "description": "Eine moderne und responsive Website für ein Café mit Tischreservierungssystem, gebaut mit Next.js.",
           "features": [
-            "Tischreservierung",
-            "Getränkesuche",
-            "Newsletter",
-            "Responsive Design",
-            "Animationen"
+            "Online-Tischreservierung",
+            "Echtzeit-Getränke- und Menüsuche",
+            "Newsletter-Registrierung",
+            "Responsives Design für alle Endgeräte",
+            "Flüssige und ansprechende Animationen"
           ],
           "tech": [
-            "Next.js"
+            "Next.js",
+            "React",
+            "JavaScript",
+            "CSS Modules"
           ]
         }
       }
     }
   },
   "sidebar": {
-    "job_title": "Softwareentwicklerin",
+    "job_title": "Full-Stack Softwareentwicklerin",
+    "status": "Verfügbar für Projekte",
     "email": "E-Mail",
     "phone": "WhatsApp",
     "location": "Standort",

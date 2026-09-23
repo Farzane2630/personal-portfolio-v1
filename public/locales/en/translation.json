@@ -14,99 +14,121 @@
     },
     "about_me": {
       "desc": {
-        "p1": "I'm a software developer with professional experience building modern web applications and taking products from idea to production. I enjoy solving real-world problems and building reliable, user-friendly systems using React, TypeScript, Node.js, and modern cloud technologies.",
-        "p2": "I'm the founder and full-stack engineer behind My Panel App — a live multi-tenant SaaS appointment-booking platform that I designed, built, and currently operate end-to-end. From database design and API architecture to deployment, authentication, and infrastructure, I own every layer of the product.",
-        "p3": "What excites me most is product ownership. I love debugging production issues, making architectural decisions, learning new technologies when the problem demands it, and shipping software that real businesses can use every day."
+        "p1": "I'm a full-stack software developer with professional experience building modern, scalable web applications and taking products from initial idea to production. I specialize in solving real-world challenges and crafting reliable, performant, and user-friendly systems using React, TypeScript, Node.js, and modern cloud technologies.",
+        "p2": "I'm the founder and full-stack engineer behind My Panel App — a live multi-tenant SaaS appointment-booking platform that I designed, built, and actively operate end-to-end. From database schema design and scalable API architecture to deployment, authentication, and cloud infrastructure, I own every layer of the product.",
+        "p3": "What excites me most is end-to-end product ownership. I love debugging production issues, making solid architectural decisions, mastering new technologies when challenges demand it, and shipping software that real businesses and people rely on every single day."
+      },
+      "actions": {
+        "view_saas": "View Live SaaS Product",
+        "contact_me": "Let's Work Together"
+      },
+      "highlights": {
+        "saas": {
+          "label": "Production SaaS",
+          "value": "Founder & Full-Stack Engineer"
+        },
+        "tech": {
+          "label": "React + TypeScript",
+          "value": "Modern Web Apps & PWAs"
+        },
+        "multilingual": {
+          "label": "EN / DE / FA",
+          "value": "Multilingual Product Experience"
+        }
       },
       "langs": {
         "title": "Languages",
         "lang1": "English",
         "lang2": "German",
         "lang3": "Persian",
+        "c1": "Advanced (C1)",
+        "b2": "Upper-Intermediate (B2)",
         "profi": "Native Speaker"
       }
     },
     "resume": {
       "ex": {
         "title": "Experience",
-        "sub_title": "Main Responsibilities:",
+        "sub_title": "Key Responsibilities & Achievements:",
         "job_1": {
           "position": "Frontend Developer",
           "date": "March 2023 – June 2025",
-          "details": "Raintech International Holding / Full-time / Hybrid",
-          "desc": "Developed production-grade SPA and PWA applications for Insurtech products using React and TypeScript while collaborating closely with backend engineers and product teams.",
+          "details": "Raintech International Holding | Full-time | Hybrid",
+          "desc": "Engineered production-grade Single Page Applications (SPA) and Progressive Web Apps (PWA) for Insurtech products using React and TypeScript while collaborating closely with backend engineers and product teams.",
           "res": {
-            "1": "- Built modern SPA and installable PWA applications with React and TypeScript.",
-            "2": "- Developed and maintained reusable component libraries used across multiple products to improve consistency and delivery speed.",
-            "3": "- Worked with backend developers and product managers to design, implement, and ship production features."
+            "1": "Built high-performance SPA and installable PWA web applications with React and TypeScript.",
+            "2": "Architected and maintained reusable UI component libraries used across multiple products to ensure design consistency and speed up delivery.",
+            "3": "Collaborated closely with backend developers and product managers to analyze requirements, integrate APIs, and ship production features."
           }
         },
         "job_2": {
           "position": "Founder & Full-Stack Engineer",
           "date": "October 2025 – Present",
-          "details": "My Panel App / Self-Employed / Remote",
-          "desc": "Designed and built a live multi-tenant SaaS appointment-booking platform from scratch for service-based businesses. Responsible for architecture, development, infrastructure, deployment, and product decisions across the entire stack.",
+          "details": "My Panel App | Founder | Remote",
+          "desc": "Designed and built a live multi-tenant SaaS appointment-booking platform from scratch for service-based businesses. Leading architecture, engineering, cloud infrastructure, security, and product evolution across the full stack.",
           "res": {
-            "1": "- Built the platform using Next.js, React, TypeScript, Node.js, Express.js, and MongoDB including data modeling, API design, and secure authentication.",
-            "2": "- Migrated authentication to an HttpOnly refresh cookie architecture and resolved route-protection race conditions and production authentication issues.",
-            "3": "- Implemented bilingual Persian/English support across the frontend and backend including RTL/LTR layouts, localized emails, PDF receipts, and language-aware middleware.",
-            "4": "- Designed database-level protections against double-booked appointments using MongoDB compound unique indexes and configurable business scheduling.",
-            "5": "- Deployed and operate the production stack across Vercel, Render, Cloudflare, MongoDB Atlas, and Supabase Storage.",
-            "6": "- Integrated SMS notifications, OTP verification, and automated appointment reminders."
+            "1": "Built the complete platform using Next.js, React, TypeScript, Node.js, Express.js, and MongoDB, including data modeling and secure RESTful APIs.",
+            "2": "Migrated authentication to an HttpOnly refresh cookie architecture, resolving route-protection race conditions and production session issues.",
+            "3": "Implemented complete bilingual Persian/English support across frontend and backend, including RTL/LTR layouts, localized transactional emails, PDF receipts, and language-aware middleware.",
+            "4": "Engineered database-level safeguards against double-booked appointments using MongoDB compound unique indexes with customizable business schedules.",
+            "5": "Deployed and maintained the production cloud stack across Vercel, Render, Cloudflare, MongoDB Atlas, and Supabase Storage.",
+            "6": "Integrated transactional SMS alerts, OTP telephone verification, and automated appointment reminders."
           }
         }
       },
       "educ": {
         "title": "Education",
         "edu_0": {
-          "location": "B.SC. COMPUTER ENGINEERING — EYVANEKEY UNIVERSITY",
+          "location": "B.Sc. Computer Engineering — Eyvanekey University",
           "date": "September 2025 – Present",
-          "desc": "Currently pursuing my Bachelor's degree in Computer Engineering while building and operating a production SaaS product."
+          "desc": "Currently pursuing my Bachelor's degree in Computer Engineering while actively developing and operating a production SaaS product."
         },
         "edu_1": {
-          "location": "ONLINE BOOTCAMP - WEB DEVELOPMENT",
+          "location": "Full-Stack Web Development Bootcamp",
           "date": "2022 – 2023",
-          "desc": "Completed an intensive web development bootcamp focused on modern frontend and backend technologies including JavaScript, React, TypeScript, Node.js, Express.js, MongoDB, MySQL, and collaborative development practices using Git and GitHub."
+          "desc": "Completed an intensive, project-driven software development program focused on JavaScript, React, TypeScript, Node.js, Express.js, MongoDB, MySQL, and modern team workflows with Git and GitHub."
         },
         "edu_2": {
-          "location": "HIGHSCHOOL",
+          "location": "Selective High School Diploma",
           "date": "2010 – 2014",
-          "desc": "Graduated from a selective high school that required passing a competitive entrance examination."
+          "desc": "Graduated from a selective high school that required passing competitive academic entrance examinations."
         }
       },
       "tech_skills": {
-        "title": "Core Technologies"
+        "title": "Core Technologies & Skills"
       }
     },
     "contact": {
-      "title": "Contact Form",
+      "title": "Get in Touch",
+      "intro": "Tell me about the product or role you’re building. Your message will open directly in your email client ready to send.",
       "input_1": "Full name",
       "input_2": "Email address",
-      "txt_area": "Your Message",
+      "txt_area": "Your message...",
       "btn": "Send Message"
     },
     "portfolio": {
       "labels": {
         "details_title": "Project Details:",
         "features_title": "Key Features:",
-        "tech_title": "#Main Tech Stack:"
+        "tech_title": "Tech Stack:",
+        "visit_project": "Visit Live Project"
       },
       "caseStudy": {
-        "eyebrow": "Featured case study",
-        "title": "My Panel App: appointment booking SaaS",
-        "description": "I designed, built, deployed, and operate a multi-tenant booking platform for service businesses—from data modeling and authentication to localized customer communication.",
+        "eyebrow": "Featured Case Study",
+        "title": "My Panel App: Multi-Tenant Booking SaaS",
+        "description": "I designed, built, deployed, and operate a multi-tenant booking platform for service businesses — from database modeling and authentication to localized customer communication.",
         "grid": {
           "ownership": {
             "label": "Ownership",
-            "value": "Product, frontend, backend & infrastructure"
+            "value": "Product, frontend, backend & cloud infrastructure"
           },
           "reliability": {
             "label": "Reliability",
-            "value": "Database protections against double bookings"
+            "value": "Database safeguards against double bookings"
           },
           "reach": {
             "label": "Reach",
-            "value": "Persian/English UI, emails, receipts & RTL"
+            "value": "Persian & English UI, transactional emails, receipts & RTL"
           }
         },
         "cta": "Open My Panel App"
@@ -114,20 +136,20 @@
       "selectedProjects": "Selected Projects",
       "projects": {
         "saas": {
-          "title": "My Panel App - Multi-Tenant SaaS Booking Platform",
+          "title": "My Panel App — Multi-Tenant SaaS Booking Platform",
           "link": "https://mypanelapp.ir",
           "image": "/images/og-image.png",
           "alt": "My Panel App",
-          "description": "A live production-ready multi-tenant SaaS appointment booking platform built from scratch for service-based businesses.",
+          "description": "A live, production-grade multi-tenant SaaS appointment booking platform built from scratch for service-based businesses.",
           "features": [
-            "Online appointment booking system",
-            "Multi-tenant architecture",
-            "Persian & English support with RTL/LTR",
+            "Online appointment booking system with intelligent scheduling",
+            "Multi-tenant architecture with isolated business workspaces",
+            "Persian & English support with seamless RTL/LTR layout",
             "Database-level protection against double bookings",
-            "SMS notifications and OTP verification",
-            "PWA support",
-            "Custom business scheduling",
-            "Cloud deployment infrastructure"
+            "SMS notifications and OTP phone verification",
+            "PWA support for mobile and desktop installations",
+            "Customizable working hours and service menus",
+            "Production cloud infrastructure with high availability"
           ],
           "tech": [
             "Next.js",
@@ -144,19 +166,19 @@
           ]
         },
         "travelhub": {
-          "title": "TravelHub - MEAN Stack Travel Blog",
+          "title": "TravelHub — Full-Stack Travel Blog Platform",
           "link": "https://travelhub-liart.vercel.app/",
           "image": "/images/travelhub.jpg",
           "alt": "TravelHub",
-          "description": "A full-stack travel blogging platform built with Angular and Node.js.",
+          "description": "A full-stack travel blogging and community platform built with Angular and Node.js.",
           "features": [
-            "Authentication system",
-            "Email verification",
-            "Article publishing",
-            "Comments and reactions",
-            "Profile management",
-            "Responsive design",
-            "Dockerized application"
+            "Secure authentication and user management",
+            "Automated email verification",
+            "Rich article publishing and markdown rendering",
+            "Community comments and interactive reactions",
+            "Custom profile management",
+            "Fully responsive design across all devices",
+            "Containerized deployment with Docker"
           ],
           "tech": [
             "Angular",
@@ -169,32 +191,36 @@
           ]
         },
         "cafe": {
-          "title": "Cafe Website",
+          "title": "Cafe Website & Table Reservation",
           "link": "https://cafe-website-pi.vercel.app/",
           "image": "/images/cafe-next-js.jpg",
           "alt": "Cafe Website",
-          "description": "A modern and responsive cafe website built with Next.js.",
+          "description": "A modern, responsive cafe website and table reservation system built with Next.js.",
           "features": [
-            "Table reservation",
-            "Drink search functionality",
-            "Newsletter registration",
-            "Responsive design",
-            "Smooth animations"
+            "Online table reservation system",
+            "Real-time drink and menu search",
+            "Newsletter subscription integration",
+            "Fluid responsive layout for all screen sizes",
+            "Delightful animations and micro-interactions"
           ],
           "tech": [
-            "Next.js"
+            "Next.js",
+            "React",
+            "JavaScript",
+            "CSS Modules"
           ]
         }
       }
     }
   },
   "sidebar": {
-    "job_title": "Software Developer",
+    "job_title": "Full-Stack Software Developer",
+    "status": "Available for opportunities",
     "email": "Email",
-    "phone": "Whatsapp",
+    "phone": "WhatsApp",
     "location": "Location",
     "birth": "Birthday",
-    "show_contact": "Show Contact",
-    "hide_contact": "Hide Contact"
+    "show_contact": "Show Contact Info",
+    "hide_contact": "Hide Contact Info"
   }
 }
